@@ -1,0 +1,19 @@
+[
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "webkit.svg"
+        }
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": "#leadinModal, #qc-cmp-cleanslate"
+        },
+        "trigger": {
+            "if-domain": "breakit.se"
+        }
+    }
+]
