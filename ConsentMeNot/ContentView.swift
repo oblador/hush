@@ -17,6 +17,10 @@ struct ContentView: View {
     private var items: FetchedResults<Item>
 
     var body: some View {
+        Text("Consent Me Not")
+        Button("Do the thing") {
+            print("do it")
+        }
         List {
             ForEach(items) { item in
                 Text("Item at \(item.timestamp!, formatter: itemFormatter)")

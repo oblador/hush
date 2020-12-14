@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4B633C32583B48A00501AE3 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B633C22583B48A00501AE3 /* SafariServices.framework */; };
 		A4BCD28525836896007FBE65 /* ConsentMeNotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BCD28425836896007FBE65 /* ConsentMeNotApp.swift */; };
 		A4BCD28725836896007FBE65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BCD28625836896007FBE65 /* ContentView.swift */; };
 		A4BCD28925836898007FBE65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BCD28825836898007FBE65 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A4B633C22583B48A00501AE3 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		A4BCD28125836896007FBE65 /* ConsentMeNot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConsentMeNot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BCD28425836896007FBE65 /* ConsentMeNotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentMeNotApp.swift; sourceTree = "<group>"; };
 		A4BCD28625836896007FBE65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,8 @@
 		A4BCD29F258369B4007FBE65 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
 		A4BCD2A1258369B4007FBE65 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
 		A4BCD2A3258369B4007FBE65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4BCD2BF2583811E007FBE65 /* ContentBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ContentBlocker.entitlements; sourceTree = "<group>"; };
+		A4BCD2C525838162007FBE65 /* ConsentMeNot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ConsentMeNot.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4B633C32583B48A00501AE3 /* SafariServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				A4BCD28325836896007FBE65 /* ConsentMeNot */,
 				A4BCD29E258369B4007FBE65 /* ContentBlocker */,
 				A4BCD28225836896007FBE65 /* Products */,
+				A4BCD2C02583811E007FBE65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +102,7 @@
 		A4BCD28325836896007FBE65 /* ConsentMeNot */ = {
 			isa = PBXGroup;
 			children = (
+				A4BCD2C525838162007FBE65 /* ConsentMeNot.entitlements */,
 				A4BCD28425836896007FBE65 /* ConsentMeNotApp.swift */,
 				A4BCD28625836896007FBE65 /* ContentView.swift */,
 				A4BCD28825836898007FBE65 /* Assets.xcassets */,
@@ -118,11 +125,20 @@
 		A4BCD29E258369B4007FBE65 /* ContentBlocker */ = {
 			isa = PBXGroup;
 			children = (
+				A4BCD2BF2583811E007FBE65 /* ContentBlocker.entitlements */,
 				A4BCD29F258369B4007FBE65 /* blockerList.json */,
 				A4BCD2A1258369B4007FBE65 /* ContentBlockerRequestHandler.swift */,
 				A4BCD2A3258369B4007FBE65 /* Info.plist */,
 			);
 			path = ContentBlocker;
+			sourceTree = "<group>";
+		};
+		A4BCD2C02583811E007FBE65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4B633C22583B48A00501AE3 /* SafariServices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,9 +389,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ConsentMeNot/ConsentMeNot.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ConsentMeNot/Preview Content\"";
-				DEVELOPMENT_TEAM = MALKK5TYM3;
+				DEVELOPMENT_TEAM = H28Z7NT4JR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ConsentMeNot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -385,6 +403,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = se.oblador.ConsentMeNot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -396,9 +415,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ConsentMeNot/ConsentMeNot.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ConsentMeNot/Preview Content\"";
-				DEVELOPMENT_TEAM = MALKK5TYM3;
+				DEVELOPMENT_TEAM = H28Z7NT4JR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ConsentMeNot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -408,6 +429,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = se.oblador.ConsentMeNot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -417,8 +439,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = ContentBlocker/ContentBlocker.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MALKK5TYM3;
+				DEVELOPMENT_TEAM = H28Z7NT4JR;
 				INFOPLIST_FILE = ContentBlocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -427,6 +451,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = se.oblador.ConsentMeNot.ContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -437,8 +462,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = ContentBlocker/ContentBlocker.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MALKK5TYM3;
+				DEVELOPMENT_TEAM = H28Z7NT4JR;
 				INFOPLIST_FILE = ContentBlocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,6 +474,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = se.oblador.ConsentMeNot.ContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
