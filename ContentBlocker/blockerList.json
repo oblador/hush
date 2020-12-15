@@ -1,19 +1,6376 @@
 [
-    {
-        "action": {
-            "type": "block"
-        },
-        "trigger": {
-            "url-filter": "webkit.svg"
-        }
+  {
+    "trigger": {
+      "url-filter": ".*"
     },
-    {
-        "action": {
-            "type": "css-display-none",
-            "selector": "#leadinModal, #qc-cmp-cleanslate"
-        },
-        "trigger": {
-            "if-domain": "breakit.se"
-        }
+    "action": {
+      "type": "css-display-none",
+      "selector": "#AdBlockerInfo,#COOKIE_BANNER,#CRTL_AlertCookie,#CookieAlert,#CookieBox,#CookieConsent,#CookieFrame,#CookieInfo,#CookieInformation,#CookieNotificationBar,#CookiePolicy,#CookieQBanner,#CookieReportsButton,#CookieSettings,#CookielawBanner,#CookiesAreBeingUsed,#CybotCookiebotDialog,#DisclaimCookie,#EUCookie,#EUCookieMsg,#EUDirectiveCookiePanel,#Footer_cookieLawBox,#GDPR,#LoggingCookie,#Piskotki,#Piskotki1_PiskotekForma,#PrivacyBanner,#Row1_Column1_Cell1_CookieSettings_CookieSettings,#SiteMasterPage_updCookieDisclaimer,#TNTpageContentPlaceHolder_pnlCookieMessage,#WP-cookie-info,#_iCD,#accept-cookies-div,#acceptCookie,#accept_cookie,#accept_cookies,#alert,#alert-cookie-policy,#alertCookies,#allow_cookies_container,#askcook,#asterix_cookie_widget,#avcn_wrapperOuter,#avcns-wrapper,#avviso_cookie,#banner-cookie,#banner_cookie,#banner_privacy,#bannerprivacy,#bauerCookiePolicy,#bbccookies,#bcmsCookieInfoWrapper,#block-cookie_policy-0,#blogger_cookie_notice,#box-cookie,#boxZgodaNaCookie,#box_cookies_error,#ca_banner,#cadre_alert_cookies,#cartelcookielegal,#catapult-cookie-bar,#cb_content,#cc-cookie-law,#cc-cookies,#cc-notification,#cc-notification-wrapper,#cccwr,#ccfd-eucookielaw,#ccm-banner-wrap,#ciasteczka,#ckWarning,#cmp-container-id,#confirmCookiePolicy,#cookie,#cookie-accept,#cookie-acceptation-popup,#cookie-alert,#cookie-banner,#cookie-banner-wrapper,#cookie-bar,#cookie-bar-main,#cookie-block,#cookie-box,#cookie-compliance-bottom,#cookie-compliance-bottom-overlay,#cookie-consent,#cookie-consent-banner,#cookie-consent-bar,#cookie-consent-container,#cookie-container,#cookie-content,#cookie-control,#cookie-disclaimer,#cookie-disclosure,#cookie-div,#cookie-info,#cookie-info-bar,#cookie-information,#cookie-information-banner,#cookie-law,#cookie-law-banner,#cookie-law-bar,#cookie-law-compliance,#cookie-law-consent-section,#cookie-law-info-bar,#cookie-law-wrapper,#cookie-message,#cookie-message-container,#cookie-modal-bg,#cookie-msg,#cookie-notice,#cookie-notification,#cookie-notification-banner,#cookie-notifier,#cookie-opt-in-footer,#cookie-overlay,#cookie-overlay-footer,#cookie-panel,#cookie-policies,#cookie-policy,#cookie-policy-banner,#cookie-policy-container,#cookie-policy-div,#cookie-policy-info,#cookie-policy-notice,#cookie-policy-strap,#cookie-popup,#cookie-ue,#cookie-warning,#cookie-warning-bar,#cookie3arhMsg,#cookieAcceptPos,#cookieAcknowledgement,#cookieAdv,#cookieAgree,#cookieAlert,#cookieBanner,#cookieBar,#cookieChoiceInfo,#cookieComplianceMessage,#cookieConsentBar,#cookieConsentWrapper,#cookieContainer,#cookieControl,#cookieCookieBar,#cookieDialog,#cookieDisclaimer,#cookieGuardMsg,#cookieInfCont,#cookieInfo,#cookieInfoBar,#cookieInfoBox,#cookieInfoMsgWrapper,#cookieInfoWrapper,#cookieInformerBooklet,#cookieLaw,#cookieLawHeader,#cookieLayer,#cookieMessage,#cookieMessageContainer,#cookieMessageWrapper,#cookieMgn,#cookieModal,#cookieMonsterWrapper,#cookieMsgBlock,#cookieNotice,#cookieNoticeContainer,#cookieNotification,#cookieOverlay,#cookiePane,#cookiePlaceholder,#cookiePolicy,#cookiePolicy-layer,#cookiePolicyBar,#cookiePolicyNotification,#cookiePolicyPopup,#cookiePopupContainer,#cookiePrompt,#cookiePromptWrapper,#cookieTerms,#cookieTime,#cookieView,#cookieWarn,#cookieWarning,#cookieWarningBox,#cookieWarningDiv,#cookieWrapper,#cookie_accept,#cookie_alert,#cookie_alert_container,#cookie_assistant_container,#cookie_banner,#cookie_banner_container,#cookie_bar,#cookie_bar_top,#cookie_box,#cookie_consent,#cookie_disclaimer,#cookie_gld_cookie_flag,#cookie_header,#cookie_info,#cookie_informer,#cookie_law_banner,#cookie_law_notice_container,#cookie_layer,#cookie_message_container,#cookie_modal,#cookie_msg,#cookie_notice,#cookie_overlay,#cookie_policies,#cookie_policy,#cookie_policy_alert,#cookie_policy_bar,#cookie_policy_container,#cookie_policy_div,#cookie_privacy_holder,#cookie_privacy_info_bar,#cookie_privacy_popup,#cookie_str,#cookie_warning,#cookie_widget,#cookiealert,#cookiebanner,#cookiebar,#cookiebar-container,#cookiebnr,#cookiechoice,#cookiediv,#cookiefascia,#cookielaw,#cookielaw2,#cookielightbox,#cookiemodalbar,#cookiemodalbarplaceholder,#cookiemodule,#cookiemonster_popup,#cookiemsg,#cookienotice-container,#cookienotif,#cookieonce,#cookieoverlay,#cookiepolicy,#cookiepolicybg,#cookiepolicydiv,#cookiepopup,#cookiereports-badge,#cookies-agreement-box,#cookies-banner,#cookies-bar,#cookies-fancybox,#cookies-info,#cookies-info-banner,#cookies-message,#cookies-modal,#cookies-notice-container,#cookies-overlay,#cookies-panel,#cookies-policy,#cookies-policy-container,#cookies-policy-prompt,#cookies-policy-wrapper,#cookies-popup,#cookies-privacy,#cookies-verify,#cookies-warning-box,#cookiesAdvertise,#cookiesAllow,#cookiesArticle,#cookiesBanner,#cookiesBar,#cookiesDisclaimer,#cookiesInfo,#cookiesInitialDialog,#cookiesLequipe,#cookiesPanel,#cookiesPolicy,#cookiesPolicyPopup,#cookiesPop,#cookiesWarning,#cookiesWarningActive,#cookiesWarningBanner,#cookiesWrapper,#cookies_apla,#cookies_banner,#cookies_box,#cookies_container,#cookies_disclaimer,#cookies_in,#cookies_info,#cookies_information,#cookies_message,#cookies_msg,#cookies_notify,#cookies_policy,#cookies_warning,#cookiescript_injected,#cookiesdirective,#cookiesdisclaimer,#cookieshit,#cookieslaw,#cookiesribbon,#cookiestatement,#cookietext,#cookieu_header,#cookieuseage,#cookiewarn,#cookiewarning,#ctl00_CookieMessage1_divCookie,#ctl00_CookieMessage1_upCookie,#ctl00_cookieconsent_ajaxPanel,#ctl00_ctl00_cookieDiv,#ctl00_ctl00_divCookiePolicyContainer,#ctl30_pnlCookie,#dennis-cookie-notice,#desktop-cookie-disclosure,#divCookie,#divCookies_pnlCookies,#dnn_ctr496_View_EUcookie,#e-privacy-message,#ec-cookie-messages-container,#ee-cookies-message,#epbar,#eu-cookie-bar-notification,#eu-cookie-law,#eu-cookie-notifier,#euCookiesQuestion,#eu_cookie,#eucookie,#eucookielaw,#eucookielaw-in-html,#eucookielawcontainer,#fdih-cb,#foCookieNotice,#footer-cookies,#footerCk,#fp_cookieMessageContainer,#future-cookie-bar,#gb > .gb_8.gb_da.gb_Jb,#gb > .gb_X.gb_wa.gb_Jb,#gb > .gb_d.gb_2b.gb_Dc,#gb > .gb_d.gb_Bb.gb_Ac,#gb > .gb_g.gb_9b.gb_Oc,#gb > .gb_g.gb_ac.gb_gd,#gb > .gb_g.gb_ec.gb_9c,#gb > .gb_g.gb_ec.gb_Wc,#gb > .gb_g.gb_ec.gb_ed,#gb > .gb_g.gb_gc.gb_md,#gb > .gb_g.gb_nc.gb_oc,#gb > .gb_g.gb_rc.gb_sc,#gb > .gb_ia.gb_tb.gb_Jb,#gdpr-banner,#gh-cookieb,#gld_cookie_flag,#global-cookie-message,#gn-cookie-accept,#h_popup,#have-a-cookie,#hi-cookie-box,#hr_cookie_policy_message,#huk_cookie_prefernce_panel,#hw_cookie_law,#icanhascookie,#icoCookiesBanner,#ico_banner,#id_cookieconsent,#ietCookiePanel,#imPolicycookiemessage,#info-cookie,#info_cookie_container,#infocookie,#inner > .container.globalhead > .hidden-xs.notice.cookiez,#iolCookiePolicy,#isCookieAccepted,#itv-cookie-notification,#itv-glob-cookie-policy,#iubenda-cs-banner,#jlp-cookie-container,#jquery-cookie-law-script,#js-cookies-bar,#js_popup_cookies.belka-cookies,#js_pushDownCookieMessage,#kuki,#lc_cookies-main,#lca-cookie-notification,#ma > .ckch,#message-bar-cookie-notice,#mktg_Cookie_Wrap,#mmmmm-cookies,#modal_cookie-mask,#mrw_cookielaw_banner,#mtv-cookies,#myCookie,#norm_cookies,#notForm\\:userNot > .notificationBar,#notifications > .info.notification,#npo_cc_notification,#npo_cc_notification_wrapper,#nq_cnilbanner,#nuk-cookieMessage,#obvestilo-piskotki,#obvstilo-piskotki,#okcookies,#ow_cookie,#pageTop > .cc_container,#permission-bar,#piskotOpozorilo,#piskotki,#piskotki_obvestilo,#pl_cookies,#plea,#plugin_cookie_int,#pm13_cookie_info,#policy-banner,#policyNotice,#politicaCookies,#polityka-cookies,#popup-cookie,#popup-cookies,#privacy-consent,#privacyPolicyLayerN,#privacy_cookie,#promoTb > tbody > tr:nth-of-type(1),#pronamic_cookie_holder,#rbiCookiePolicy_pushDownBoxWrapper,#rtl_cookie_small,#scc-consent,#site-cookie-policy,#site-wide-cookie-message,#skycom-cookie-wrapper,#sliding-popup,#stdCookie,#sun-cookieMessage,#sxc_confirmation,#tesco_cookie_widget,#theCookie,#thecookie,#top-notification-bar-container,#tto-cookieMessage,#twCookieConsent,#ukCookiePopup,#usrConsent,#v-cookielaw,#viewlet-cookiepolicy,#warning_cookie,#website-cookies,#wk_cookiebar,#wk_cookies,#wpca-bar,#wrapCookie,#ws-cookie-consent-msg,.COOKIECONSENT_BANDEAU,.CookieDirectiveDisplay,.CookieDirectiveHeight,.CookieInfo,.CookieLawPnl,.CookieNotificationTopBar,.EUCookie,.accept-cookies,.acceptCookiesBox,.agegate-cookie,.alert-info.alert-dismissable.alert,.alertcookie,.annoying.notice,.b-cookies_banner_container,.bannerInformativaEU,.bk-cookieBar,.bmj-cookie-noticebar-content,.bottom_message,.box-cookies,.box-info-cookie,.butterBar-message,.capaAvisoCookies,.capa_cookies,.cc-cookies,.cc-cookies-wrapper,.cc_banner-wrapper,.ccmcss_oic,.ccwrap,.ce-banner,.center_cookies,.cl_dark.cl_bottom.cl_bar,.con-large.cpr-bar,.containerCookie,.coockie_banner,.cookie-accept-overlay,.cookie-alert,.cookie-banner,.cookie-banner-wrapper,.cookie-bar,.cookie-bar,.cookie-block,.cookie-box,.cookie-compliance,.cookie-consent,.cookie-content,.cookie-disclaimer,.cookie-header,.cookie-info,.cookie-info-layer,.cookie-information-container,.cookie-information-wrapper,.cookie-jar,.cookie-law,.cookie-law-overlay,.cookie-law.col-md-12,.cookie-message,.cookie-monster,.cookie-note,.cookie-notice,.cookie-notification,.cookie-notifier,.cookie-notifier-text,.cookie-opt-in,.cookie-panel,.cookie-panel-content,.cookie-panel-overlay,.cookie-policy,.cookie-policy-box,.cookie-policy-notice,.cookie-policy-statement,.cookie-popup,.cookie-warning,.cookie-wr,.cookie-wrapper,.cookieAccept,.cookieAccepterSlider,.cookieAsker,.cookieBanner,.cookieBannerContainer,.cookieBar,.cookieBox,.cookieConsent,.cookieControl,.cookieDisclaimer,.cookieLaw,.cookieMessageDiv,.cookieNotice,.cookieOptIn,.cookiePolicy,.cookieTooltip,.cookieTooltipKontener,.cookieWarning,.cookieWarningBox,.cookieWrap,.cookie_accept,.cookie_bar,.cookie_content,.cookie_info,.cookie_notice,.cookie_notification,.cookie_policy,.cookie_policy_message,.cookie_popup,.cookie_privacy_info_bar,.cookie_warning,.cookiebanner,.cookiebar,.cookieconsent,.cookieconsent-popup,.cookielaw,.cookiem,.cookiemessage,.cookienotice-bar,.cookienotice-container,.cookiepolicy,.cookies-alert,.cookies-dialog,.cookies-info,.cookies-notice,.cookies-notification,.cookies-policy,.cookies-popup,.cookies-warning,.cookiesAlert,.cookiesBar,.cookiesContent,.cookiesInfo,.cookiesMessageBanner,.cookiesPro,.cookiesWarning,.cookiesinfo,.cookiespolicy,.cookiewrapper,.cpr-bar,.cwcookielaw,.divCookiePopUp,.divCookiePopUpContainer,.divascookies,.epson_cookienotice,.eu-cookie-notice,.euCookie,.euCookies,.eucookie_disclaimer,.footer-cookies-policy,.fr.cookies-allow,.future-cookie-bar,.gb_g.gb_ac.gb_gd,.globalcookiepolicycontainer,.gn-cookie-alert,.grdp-popup,.header-cookie-content,.headerCookie,.infoCookies,.jobnotice_cnt,.js-cookie-compliance,.js-cookie-disclaimer,.js-cookie-notice,.js-cookie-policy,.js-toast-cookies.js-component-toast.component-toast,.notice-cookie,.notice_notice_cookies,.om-cookie-agreement,.outerCookieBar,.ow_cookie,.panel_cookie,.pea_cook_wrapper,.pf-cookie-directive,.polityka-cookie,.popup-cookie,.printNone.usermsgCookie,.privacy-controls-banner,.privacyhint,.qb-cookielaw-bar,.qc-cmp-ui-container.qc-cmp-showing,.regional-cookie-warning,.roh-cookies,.row.user-notes-notification,.sd_cookiespolicy,.sgsCookies,.site-message--cookies.site-message--banner.js-site-message.site-message,.storm-cookie,.sys_cc-cookies,.toast-type-newCookie,.tsAttention--Info--button,.ubuntu-it.org,.uk-cookie-banner,.uk-cookies,.wrapper--cookies,div[data-ng-controller=\"AcceptCookiesController\"],gh-cookieb-active,message-bar-cookie-notice"
     }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\.cookielaw\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\.cookiepolicy\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\.cookiesmessage\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/Cookie\\-popup\\-.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/CookieAlertBootStrapper\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/EUCookieDirective\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/__cookie_js\\.php.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/assets\\.cookieconsent\\.silktide\\.com\\/.*.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/checkCookie\\?.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookie\\-banner\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookie\\-bar\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookie\\-compliance\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookie\\-control\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookie\\-eu\\/.*.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookie\\-info\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookie\\-manager\\.min\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookie\\-notice\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookie\\-policy\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookie\\-terms\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookie\\.debug\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookie\\.debug\\.min\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookie\\.policy\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookieBox\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookieCompliance\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookieConsent\\-.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookieDisclaimer\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookieMonster\\.min\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookieNotification\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookie_alert\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookie_law\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookie_msg\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookie_notice\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookieacceptance\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookiebadge\\..*\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookiebar\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookiecontrol\\-.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookiecontroller\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookiecuttr\\.css.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookiedirective\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookielaw\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookielawinfo\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookieok\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookiepolicy\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookiepolicy\\/.*.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookiepolicy_.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookiepolicybanner\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookiepopup\\?.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookies\\-footer\\-.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookies\\-info\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookies\\-notification\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookies\\-policy\\/.*.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookies_komunikat\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookies_policy\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookiesamtykke\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookiespolicy\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookiewarning\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookiewarning2\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookiewarning3\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/cookiewarning4\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/ecookie_check\\/.*.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/ee\\-cookies\\-min\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/eu\\-cookie\\-.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/eu_rp_cookie\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/eucookielaw\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/fp_cookie\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/icit\\-cookie\\-law\\/.*.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/icocookies\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/jqueryCookieGuard\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/plugins\\/CookieInfo\\/.*.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/rbicookiepolicy\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/tm\\.cookie\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/toucanCookie\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/ttgcookieconsent\\-.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/warnCookies\\..*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*1and1.es",
+        "*1and1.pl",
+        "*1and1.co.uk",
+        "*1and1.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookieinfo-container"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*20minutes.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#CNIL-notice"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*3.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "[class=\"tre-cookie-disclaimer\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*4d.rtvslo.si"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#size-window-cookie"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*4players.de"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookpol"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\|\\|consent\\.truste\\.com\\^.*",
+      "if-domain": [
+        "*economist.com"
+      ]
+    },
+    "action": {
+      "type": "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\|\\|indema\\.si\\/.*\\/cookielawinfo\\..*"
+    },
+    "action": {
+      "type": "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\|\\|nova24tv\\.si\\/.*\\/cookielawinfo\\.js.*"
+    },
+    "action": {
+      "type": "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\|\\|tweakers\\.net\\^.*",
+      "resource-type": [
+        "document"
+      ]
+    },
+    "action": {
+      "type": "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*accuweather.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#eu-cookie-notify-wrap"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*actu-environnement.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#informations-cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*akka.io"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".optanon-alert-box-wrapper:has-text(This site uses cookies)"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*allrecipes.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#privacyNotification"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*ancestry.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#Banner_50001,#Banner_cookie_1"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*android.com.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "div[class^=\"pea_cook_wrapper\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*anglianwater.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#ctl00_pnlCookie"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*apollographql.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cc-banner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*area-codes.org.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#wsjconsent"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*arla.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookie-popup__content,.cookie-popup__heading"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*arte.tv"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".next-cookie-banner__wrapper"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*asda.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#FT_Cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*atletski-klub-olimpija.si"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".activebar-container"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*atman.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#gbpl_oba"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*audi.*"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".nm-wrapper > .nm-cookiepolicy"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*audion.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cc-cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*auto-ici.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#close_cnil"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*automotorsport.se"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".alert.alert-info.page-alert"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*autotask.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".jsEnabled.alertbar-bottom.alertbar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*bamse.se"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".alert.alert-info.page-alert"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*bankofengland.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".container-notifications"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*barbie.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#eu_cookies_overlay_content"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*barclaycard.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookiesMessageBanner,.js-cookie-message"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*barclays.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "P.otm"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*bbc.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookie-demo"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*beatsbydre.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#brand_drawer,.brand_drawer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*beepworld.de"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#bw_cookiechoice"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*belkin.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".pb-copy"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*berubambi.hr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "div#cookieMessageOuter"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*bethesda.net"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#container"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*bfmtv.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#conteneurCookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*bibliotek.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".popup-content"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*bikebuster.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookiesBlock"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*bing.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#thp_notf_div"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*bl.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookie-overlay"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*blitz-cinestar.hr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "div#cookie-inner-wrapper"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*blogs.mediapart.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".bust"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*bm.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#CookiePanel"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*bol.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#top_header_cookie_message"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*boligejer.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".eksCookieContainer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*borsen.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookie-new"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*bouyguestelecom.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#no-cookie"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*bridgnorthjournal.com",
+        "*marketdraytonadvertiser.com",
+        "*newportadvertiser.com",
+        "*northshropshirechronicle.com",
+        "*shrewsburychronicle.com",
+        "*southshropshirejournals.com",
+        "*telfordjournal.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "DIV[style=\"position: relative; padding: 7px 50px 7px 0px; margin: 14px auto; border: 1px solid rgb(204, 204, 204); background-color: rgb(238, 238, 238);\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*brighton.ac.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookiez"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*britannia.co.uk",
+        "*smile.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#noticePanel"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*ca-nord-est.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".recocliv2"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*cadbury.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#_CookieText"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*cantine-gamelle.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#AvisoCookieslaw"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*car2go.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#c2g_cookie_dialog"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*catalink.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".ui-dialog"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*caterersearch.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#rbiCookiePolicy_mainInformation"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*cavendishonline.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookie-compliance"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*cbronline.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#privacy_content"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*ceneo.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#js_cookie-monster"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*change.org"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".flash-message.flash-message-announcement"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*channel4.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".all4nav-cookie-policy-notification,.cookie-policy-alert"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*chefkoch.de"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#ck-cookie-statement"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*christmasfood.marksandspencer.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".site-stripe"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*citymarket.fi"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookie-warn"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*cityoflondon.gov.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".container-floating-notifications"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*claireperry.org.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#blanket,#message"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*clarkewillmott.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookiestext"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*cloud.digitalocean.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cc-window[aria-label=\"cookieconsent\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*cloudflare.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".eu-cookie-banner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*cnbc.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#_evh-ric:has-text(cookies)"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*cnn.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".optanon-alert-box-wrapper:has-text(We use cookies)"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*co-operativebank.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#noticePanel"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*codehousegroup\\.com\\/js\\/libs\\/cookie\\-check\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*cofunds.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".idrPageRow[style^=\"min-height:0;height:auto;padding:0;position:relative;z-index:1;zoom:1;border:none;\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*coinbase.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".flash.cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*communauto.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*computerworld.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#rolloverBanner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*concertolive.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".divCookieWarning"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*cookie\\-notifications\\.1380812774\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*cpr.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "[class=\"alert alert-info no-cookies\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*creativebloq.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cmp-container-id"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*crucial.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookieInfo"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*dailystar.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cmp-container-id"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*davidlloyd.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#home-cookie2"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*dawsonera.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cc-cookies-container"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*dba.dk",
+        "*bilbasen.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "DIV[style^=\"position: fixed; bottom: 0px; z-index: 10000;\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*debenhams.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#debCNinfo"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*delonghi.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#eucookielawcontainer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*demotywatory.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "DIV[style^=\"position: fixed; left:0; right:0; bottom:0\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*devianne.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#avertissement_cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*diabetes.org.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#policyPopup"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*digitaltrends.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#dtcookie-container,.dtcookie-overlay,body.cookie-dialog-up:style(overflow:auto !important)"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*diy.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#noScriptCookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*dolce-gusto.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#nimgrowler"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*dostavanadom.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*downdetector.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#overlay.container:has-text(use cookies to provide)"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*dr.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".dr-cookie-info-box,.dr-infobox,DIV[class=\"cookie-info-box\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*drinkaware.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookie-check"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*drive24.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookieHeader"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*duf.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".tx-tc-cookie"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*e-systems.ro"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookie-info-div"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*economist.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#ec-message-1,#ec-message-2,#ec-message-3"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*edexcel.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookiemsgbox"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*edition.cnn.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".user-msg"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*egmont.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookieMsg"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*ekstrabladet.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookiedisclaimer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*elections2014.eu"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "DIV[style=\"bottom: 0px;\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*elgiganten.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookieinfobox,.transbox"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*elpais.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#capaAvisoPoliticaCookies_superior_mensajes"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*en.valenciacf.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookies_ask"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*ennaranja.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookies-overlay"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*eprivacy\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*esprit.de"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#policy_header"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*eu\\-cookie\\-directive\\/script\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*eu.battle.net"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#eu-cookie-compliance"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*europarl.org.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookies-message"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*europeantour.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#modalCookieContainer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*eveningtelegraph.co.uk",
+        "*thecourier.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".notification"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*evm.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookies-acc"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*express.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cmp-container-id"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*extremoduro.com",
+        "*robe.es"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#dvCookie.cookiesms"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*facebook.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".pam.fbPageBanner._3d9x.uiBoxGray.bottomborder"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*fatbeehive.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "div[style^=\"background-color: #000;\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*fcbarcelona.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#notificacio-cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*fcomputer.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#jumper_cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*filmweb.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".topBarCont"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*findmypast.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookie-dropdown"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*folkuniversitetet.se"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".alert"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*fool.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#dogfish"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*forbrug.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".CookieChoiceContainer.nocontent"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*ford.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookieAlertBoxID"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*forumcommunity.net"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".jnote"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*freecycle.org"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#blocker_message"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*galleria.io"
+      ]
+    },
+    "action": {
+      "type": "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*gambleaware.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#ccWrappery"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*gamblingcommission.gov.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookiedOuter"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*gamereactor.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookielawwarning"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*gamespy.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#policy"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*gigaom.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".privacy-policy"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*glee.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#bf-cookie-notice"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*gmx.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".mod-cookiepolicy.mod"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*go.tv2.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#tv2cookiebar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*gocompare.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".CookiePolicyContainer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*goldenline.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#topReminder"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*golem.de"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#golem-cookie-accept"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*google.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "[class=\"gb_hb gb_kb gb_xa\"],[class=\"gb_ib gb_lb gb_ya\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*google.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".fbar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*gosc.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "div[style^=\"border: 10px solid rgb(138, 138, 138);\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*gov.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".js-cookies-banner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*group.barclays.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".dialogMask"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*groupe-logos.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "DIV[style=\"background:#2A2A2A; color: #fff; left:0px; bottom:0px; right:0px; position: fixed; z-index: 1000;\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*groupon.co.uk",
+        "*groupon.ie"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#ls-cookie-banner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*gry.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".m-cookiebar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*guardian.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".identity-noticebar,.identity-noticebar-content"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*guloggratis.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookie_container"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*hankzipzer.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cppd"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*hattrick.org"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".alert"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*hcrfm.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cj-tab-title"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*hellobank.it"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#infoCookie"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*heltnormalt.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".banner,.banner-container"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*hmrc.gov.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#CookieReportsPanel"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*hpconnected.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookiewrap"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*hrportfolio.hr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "div#kolac"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*hsbc.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookieBox"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*huawei.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".ReadPolicy.browsehappy"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*iblanky.co.cc"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#update"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*ico.gov.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#banner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*ico.org.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#banner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*imedeen.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookiepolicyContainer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*ina.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookies-bar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*independent.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookie-warning-gdpr"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*indiegogo.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#fancybox-overlay,#fancybox-wrap"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*informahealthcare.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".overlay,.popupContainer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*information.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#block-inf-eu-cookie-cookie-disclaimer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*interia.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#inpl_cp_cnt"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*iopscience.iop.org"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookies-banner-wrap"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*ipnordic.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".ultimize_cookie_notification_container"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*istockphoto.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#euCookieBar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*itele.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cnil_alert_inner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*itworld.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "body:style(overflow:auto !important),body>div:has-text(We care about your privacy)"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*jman.tv"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#ActionBar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*jobindex.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".jix_acceptcookies_box"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*jobs.ac.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".eucookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*joemonster.org"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "DIV[style^=\"position: fixed; left:0; right:0; bottom:0;\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*johnlewis.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#opnotification"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*joomla.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#panel_cookie_dol"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*jqueryCookieGuard.*\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*jrf.org.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookieconsent"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*justcause.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".comp.comp-notification"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*k-citymarket.fi"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".Pbox-sm"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*kalleanka.se"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".alert.alert-info.page-alert"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*king.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".siteMessageContainer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*kodin1.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookie-warn"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*krak.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "[class=\"cookies-info-static\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*kwejk.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookies-politics"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*lab-project.net"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".activebar-container"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*larousse.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".panel-cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*lavie.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#usrcookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*layar.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".remarketing-banner.show"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*lazienkaplus.pl"
+      ]
+    },
+    "action": {
+      "type": "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*ldlc.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#tc_privacy"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*leboncoin.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookieFrame"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*leeds.gov.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#siteStatement"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*lefigaro.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookieBarContainer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*lego.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#GFSticky"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*lemonde.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#alerte_tracking"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*lemondeinformatique.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#infos_cookie"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*leroymerlin.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".nav-infos-wrapper"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*lesechos.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookiemenu"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*lesinrocks.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cnil-block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*lesnumeriques.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#notif_197"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*letelegramme.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#barre_top_secondaire"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*liberation.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookie-notify"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*linkedin.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#notice-cookie-policy"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*lonelyplanet.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".row--cookie-compliance"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*loot.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".ac-cl"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*lrb.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "DIV[style=\"border-bottom:1px solid #adadad;padding:5px;background:#f4f4f4;color:#333;font:1em/1 sans-serif\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*ma-reduc.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#about-cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*magicmaman.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookieNotification"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*masterofmalt.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookiePopup"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*mclaren.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#block-cookie-info"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*mclarenstore.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".widget-notifyBar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*media.netflix.com"
+      ]
+    },
+    "action": {
+      "type": "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*mediapart.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cnil-sentence"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*meetup.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "div.stripe:has-text(We use cookies)"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*mercialys.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".info-top"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*merlin.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookies_policy"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*miniclip.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#eu-cookie"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*ministryofsound.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#ctl00_ctl00_Cookies1_UpdatePanel1"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*mirror.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".captify-widget"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*mobildebat.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookies_info_header"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*momondo.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".chrm-content"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*monbs.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookieFooter"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*monclick.it"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".mk-cookieBox"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*moneysavingexpert.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#alertBar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*monitor.si"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookie-note-content"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*monster.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#intMsgCookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*moski.si"
+      ]
+    },
+    "action": {
+      "type": "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*motor-talk.de"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#b-cc"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*mp.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".alert.alert-block.alert-info.fade.in"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*myspace.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#siteAlert"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*n-mobile.net"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#infobox3"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*nationwide.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cn"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*nats.io"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#gdpr"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*nemid.nu"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "[class=\"cookie_optin_box\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*nerc.ac.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookieConsent"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*netanttila.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookie-warn"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*netapp.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cboxOverlay,#colorbox"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*nethouseprices.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookieAccept"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*netia.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookie_div"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*networkrail.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".CookieNotification"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*nfbio.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#the-cookie"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*nginx.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#nx_gdpr_modal"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*nike.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".modal-mask-class"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*nintendo.fi"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#eucookies-note"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*nlyman.com",
+        "*nelly.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#toast-container"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*nouvelobs.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "DIV[style=\"text-align:left;width:550px;background-color:#feefaa;padding:10px;font:12px Arial;position:absolute;z-index:50;undefined\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*nrc.nl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookiemonster"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*nwolb.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#ctl00_privacyCookies_LIPCNB_PrivacyandCookiesNoticePanel"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*nyhederne.tv2.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#tv2cookiebar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*nyheter24.se"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#acceptCookiesDiv"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*nytimes.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "div.shown:has-text(Review our cookie policy)"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*o2.co.uk"
+      ]
+    },
+    "action": {
+      "type": "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*olvg.nl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cc"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*onlive.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".top_message"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*open.ac.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".interaction"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*orange.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookieBannerD,.cookieStandard"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*orange.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#pop-client"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*ordnancesurvey.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".message"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*originalpenguin.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#epd"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*over-blog.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".CookiesBar.js-cookies.CookiesBar--visible"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*oxfordjournals.org"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookiepolicyimplied"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*packtpub.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookie-outer-outer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*parcelmotel.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookiemonster"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*paypal.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".xo-gdpr-cookie-banner-wrapper"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*pekao.com.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#box-close,#box-div,#box-layer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*penguingamers.eu"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".RACKWrapper"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*perforce.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "span.optanon-link-text-left.optanon-white,ul.optanon-menu.optanon-menu-allow"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*phoronix.com"
+      ]
+    },
+    "action": {
+      "type": "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*picturehouses.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookie_message"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*pinkladyapples.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#banner-wrapper"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*play.google.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".app-translation-bar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*plesner.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#wt-cookie-box"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*pokemon-trainer.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#Notices"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*policy\\.cookiereports\\.com.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*politiken.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookie-warning-pop"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*polytuil.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookiesContainer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*postnl.nl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#coverlay,#cwrapper"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*ppluk.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#wsjpecrga"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*priorygroup.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#promptbar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*puppet.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".puppet-cookie-banner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*questtv.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#dni-notifications"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*qype.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".js-cookie-info"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*radionomy.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookieDough"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*rapidonline.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#Header_SelectSitePopup_DisplaySiteSplitMsgDiv"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*rbicookiepolicy\\-14\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*rbicookiepolicy\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*rbs.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".pod.classic.brd-none.dev-pod"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*realmadrid.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".m_cookie"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*redbubble.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#RB_React_Component_CookieBanner_1"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*redbull.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".EUCookiePolicyContainer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*reddit.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#eu-cookie-policy"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*reed.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".notification"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*rejsekort.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "[class=\"CookieWarning\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*reliancebankltd.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#informationbar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*retnemt.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "DIV[class=\"CookieInfoBox\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*rexfeatures.com",
+        "*rexusa.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#site-we-use-cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*rireetchansons.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".popin-cgu-cookie-inner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*rockpapershotgun.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#ecd_opt_in_banner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*royalnavy.mod.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookies-notice"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*rugbyworldcup.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#Explanation,.banner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*rumid.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#banner-floating"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*santander.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#_W034_Cookie_Directive_WAR_W034_Cookie_Directiveportlet_contenedor01,#cookiebannerAH"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*santanderbillpayment.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#euPrivacy_control_euPrivacy_cookiesMsg"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*savi-france.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#notifybar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*seetickets.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookieslaw"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*seloger.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".container_cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*serverfault.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#js-gdpr-consent-banner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*showcasecinemas.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "div.section-prompt:has-text(About Cookies)"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*shropshirestar.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".inner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*siepisze.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "div[class^=\"pea_cook_wrapper\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*singaporeair.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".popup--cookie.popup-1"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*skapiec.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#uclaInfo"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*skat.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookieMaster"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*skipton.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#AlertCookieBanner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*skyscanner.net"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookie-banner-root"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*slate.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".footer_cnil"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*smartbox.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookiePopin"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*soeren-hentzschel.at"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#storage-notice"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*sofort.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".small"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*sonera.fi"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".attention-notice"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*soundcloud.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".announcement"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*sourceforge.net"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".truste-sf-banner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*spot-a-shop.fi"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#popup-notifications"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*spotify.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#js-message-bar-cookie-notice,#js-message-notice[data-name=\"cookieNotice\"],.notification-bar uk-cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*stackexchange.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#js-gdpr-consent-banner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*stackoverflow.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#js-gdpr-consent-banner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*stargreen.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "div[style^=\"color: rgb(238, 238, 238); background-color: rgb(102, 102, 51);\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*startnext.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#head-bar-cookie-info"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*stofa.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookie_popup"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*store.playstation.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookieWarningMessage"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*stormcreative.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#storm-cookie"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*studentski.net"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*sundaypost.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".notification.notification-error"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*suzuki.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#privacypopup"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*svt.se",
+        "*svtflow.se"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#svtCookieInformationContainer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*t-mobile.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookiesMessage,.cookies-message-container"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*t-mobile.nl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#TMobile_nl_WebPortals_UI_PageComponents_CookieSettingsOverlay_CookieSettingsOverlayController_OverlayRootDiv,#exposeMask"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*tandfonline.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".b-body,.b-header"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*tddirectinvesting.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookieWindowContainer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*techradar.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cmp-container-id,.cc-banner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*techrepublic.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#_evidon_banner:has-text(use cookies for personalized),#cookieCont"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*telmore.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#CookieDiv"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*tesco.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cp"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*tfa.net"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "cccwr"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*the-tls.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*theatlantic.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".qc-cmp-ui-container.qc-cmp-showing,.qc-cmp-ui-showing:style(overflow: auto !important)"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*thecheshire.co.uk",
+        "*thederbyshire.co.uk",
+        "*nationwideinternational.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cn"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*theguardian.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".identity-noticebar,div.site-message--first-pv-consent,[id^=\"sp_message_container\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*thehanley.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "LI[style=\"overflow: hidden; background: url(\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAoCAYAAAAPOoFWAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPZJREFUeNq81tsOgjAMANB2ov7/7ypaN7IlIwi9rGuT8QSc9EIDAsAznxvY4pXPKr05RUE5MEVB+TyWfCEl9LZApYopCmo9C4FKSMtYoI8Bwv79aQJU4l6hXXCZrQbokJEksxHo9KMOgc6w1atHXM8K9DVC7FQnJ0i8iK3QooGgbnyKgMDygBWyYFZoqx4qS27KqLZJjA1D0jK6QJcYEQEiWv9PGkTsbqxQ8oT+ZtZB6AkdsJnQDnMoHXHLGKOgDYuCWmYhEERCI5gaamW0bnHdA3k2ltlIN+2qKRyCND0bhqSYCyTB3CAOc4WusBEIpkeBuPgJMAAX8Hs1NfqHRgAAAABJRU5ErkJggg==\\\") repeat-x scroll left top lightgreen; border-radius: 5px; border: 1px solid rgb(80, 194, 78); box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); color: darkgreen; width: 310px;\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*theherbert.org"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#ico_banner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*thejournal.ie"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#notify-container"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*thelandscapegroup.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "DIV[style=\"margin-left: 0px; position: fixed; left: 20px; bottom: 20px; width: 300px; height: 250px; background-color: rgb(238, 238, 238); color: rgb(51, 51, 51); border: 1px solid rgb(153, 153, 153); box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); line-height: 1.3em; z-index: 99999; padding-top: 10px;\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*themeflood.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#gatewayBarFillstacks_in_5416_page4"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*theneweuropean.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".qc-cmp-ui-container.qc-cmp-showing,.qc-cmp-ui-showing:style(overflow: auto !important)"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*thenottingham.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookieMsg"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*theprogressive.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#wrap-message"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*theregister.co.uk",
+        "*channelregister.co.uk",
+        "*reghardware.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#RegCCO"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*theson.org.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#msg_top_bar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*thewolseley.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookie_policy_banner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*thinkgeek.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cc-window[aria-label=\"cookieconsent\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*thisengland.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#msg_top_bar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*thisislocallondon.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookiewarningiframe"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*three.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#rwd-cookie-message"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*tidningenjulia.se"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".alert.alert-info.page-alert"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*tomshardware.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "div.prism-modal-content:has(#accept-all-consents)"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*totalmoney.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#right_widget"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*travelsupermarket.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookieDirective"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*tvcatchup.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#messageBox"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*tvlicensing.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#blq-global"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*twilio.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#consent_blackbar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*twitch.tv"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".noty_bar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*uk.eurosport.yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#yucs-eprivacy"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*uk.yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#y-shade"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*ukpostbox.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#eu_cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*uktv.co.uk"
+      ]
+    },
+    "action": {
+      "type": "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*ungdomskort.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#eksCookiePrompt"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*uptodown.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*usersnap.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookies-message"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*vanguard.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookieDrawer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*vbulletin.com"
+      ]
+    },
+    "action": {
+      "type": "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*videnskab.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#block-videnskabdk_custom_blocks-cookie_compliance"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*videojug.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cp-alert-message"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*vpspecialists.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#CookieConsentDiv"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*vultr.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookieconsent_dialog"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*waitrose.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#topEuCookieAlert"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*wattsindustries.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#header1_overlay2"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*wavesfm.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#footer_width"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*web.skype.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".notification.info"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*weebs.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookie_wrapper"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*which.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#eprivacy-holder,#eprivacy-outer"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*wimbledon.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#wimPrivacyBanner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*wimp.dk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookie-warn"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*wired.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#domCookieWarning"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*wizzo.es"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".avisoCookie"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*wrzucacz.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "P[class=\"info\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*wtatennis.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#prfrm_cookie_bnr"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.aliexpress.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".overlay"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.alpenverein.it"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#CookieT2Bar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.audi.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".nm-cookiepolicy"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.bbvaopenmind.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cg_cookie_bar"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.cda.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#box_info.bx-info"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.charentelibre.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookie_banner-handled"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.choisirensemble.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".jq_cookies_msg.wgt-cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.colissimo.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.dagospia.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#banner_privacy"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.digitalocean.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".bui-AnnouncementBanner[data-home-announcement-cookie*=\"gdpr\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.dolomitisuperski.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#pc-cookie-notice"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.espn.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookie-overlay"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.flickr.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookie-banner-view"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.futura-sciences.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#fs-cookiewarning"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.google.at"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#pushdown"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.google.be"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#pushdown"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.google.co.uk"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#pushdown"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.google.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#pushdown"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.google.cz"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#pushdown"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.google.de"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#pushdown"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.google.es"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#pushdown"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.google.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#pushdown"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.google.gr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#pushdown"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.google.ie"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#pushdown"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.google.it"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#pushdown"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.google.nl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#pushdown"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.google.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#pushdown"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.google.pt"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#pushdown"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.google.ru"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#pushdown"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.google.si"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#pushdown"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.gvcc.net"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#footer > .cookieleiste"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.itv.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".wrapp-cookie"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.lagazettedescommunes.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#bandeauCookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.ldlc-pro.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#privacy div#container"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.mediaworld.it"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#bannerPolicy"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.palaisdesthes.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#header_alert_cookie"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.petzl.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#global > header > .cookieToast"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.picturehouses.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".hidden-print.container-fluid.interim-banner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.quechoisir.org"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#bannerCnil"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.sentres.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".cookies-eu"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.tf1.fr"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".banner_cookies"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.theguardian.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".site-message--cookies.site-message--banner.js-site-message.site-message"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.vobadirekt.de"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".lightbox--cookie-consent,:xpath(//*[contains(@class, \"darken-layer\") and /*//*[contains(@class, \"lightbox--cookie-consent\")]])"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*www.wykop.pl"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "DIV[class=\"annotation type-alert type-permanent lspace m-reset-position closableContainer\"]"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*zenska.si"
+      ]
+    },
+    "action": {
+      "type": "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*zonaforo.meristation.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".inner"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*allegrostatic\\.pl\\/js\\/scripts\\/cookie\\-policy\\-banner.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*app\\.cookieassistant\\.com\\/widget.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*assets\\.cookieconsent\\.silktide\\.com\\^.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*codehousegroup\\.com\\/js\\/libs\\/cookie\\-check\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*cookie\\-script\\.com\\/s.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*cookie\\-script\\.com\\^.*",
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*cookie\\.gazeta\\.pl\\/noScriptCookie\\.servlet.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*cookieassistant\\.com\\^.*",
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*cookieconsent\\.com\\^.*",
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*cookieconsent\\.silktide\\.com\\^.*",
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*cookieq\\.com\\^.*",
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*cookiereports\\.com\\^.*",
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*crownpaint\\.co\\.uk\\/scripts\\/crown\\/cookiesPopup\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*delo\\.si\\/assets\\/delo_v3\\/notice\\/js\\/script\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*demotywatory\\.pl\\/res\\/assets\\/user\\-revision12b9ff43cfde9f9f05947f9bbce45787\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*discoveryuk\\.com\\/tier0\\/cookie\\/duka\\/cookiebanner\\.js\\.shtml.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*du8783wkf05yr\\.cloudfront\\.net\\/rbi_uk\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*fabriclondon\\.com\\/include\\/javascript\\/cookiedirective1\\.5\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*frz\\.io\\/cnil\\/.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*ico\\.east\\-web\\.co\\.uk\\/js\\/run\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*m1mjd9in5z2\\.cloudfront\\.net\\/widget\\.js.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*myinterrail\\.co\\.uk\\/shared_files\\/clientscripts\\/cms\\/cookie_alert1\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*omgubuntu\\.co\\.uk\\/wp\\-content\\/plugins\\/omg\\-magnific\\/magnific\\.min\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*onlive\\.co\\.uk\\/account\\/cookie_notice.*"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*quantcast\\.mgr\\.consensu\\.org\\/cmp\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*wkd\\.com\\.pl\\/cookies\\/cookies\\.js.*",
+      "resource-type": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*breakit.se"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#leadinModal, #qc-cmp-cleanslate"
+    }
+  }
 ]

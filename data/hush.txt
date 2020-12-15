@@ -1,0 +1,4 @@
+[Adblock Plus 1.1]
+
+breakit.se###leadinModal, #qc-cmp-cleanslate
+theguardian.com##[id^="sp_message_container"]

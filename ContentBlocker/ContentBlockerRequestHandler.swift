@@ -2,7 +2,7 @@
 //  ContentBlockerRequestHandler.swift
 //  ContentBlocker
 //
-//  Created by Joel Arvidsson on 2020-12-11.
+//  Created by Joel Arvidsson on 2020-12-15.
 //
 
 import UIKit
