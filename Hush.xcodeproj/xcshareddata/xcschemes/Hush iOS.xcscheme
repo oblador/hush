@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A4D9A0FA258A02B4009D7004"
+               BlueprintIdentifier = "A4D9A0F2258A02B4009D7004"
                BuildableName = "Hush.app"
-               BlueprintName = "Hush (macOS)"
+               BlueprintName = "Hush iOS"
                ReferencedContainer = "container:Hush.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A4D9A0FA258A02B4009D7004"
+            BlueprintIdentifier = "A4D9A0F2258A02B4009D7004"
             BuildableName = "Hush.app"
-            BlueprintName = "Hush (macOS)"
+            BlueprintName = "Hush iOS"
             ReferencedContainer = "container:Hush.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A4D9A0FA258A02B4009D7004"
+            BlueprintIdentifier = "A4D9A0F2258A02B4009D7004"
             BuildableName = "Hush.app"
-            BlueprintName = "Hush (macOS)"
+            BlueprintName = "Hush iOS"
             ReferencedContainer = "container:Hush.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

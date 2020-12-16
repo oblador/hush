@@ -13,8 +13,8 @@
 		A4D9A104258A02B4009D7004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D9A0EE258A02B4009D7004 /* Assets.xcassets */; };
 		A4D9A116258A0340009D7004 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D9A115258A0340009D7004 /* Cocoa.framework */; };
 		A4D9A11B258A0340009D7004 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9A11A258A0340009D7004 /* ContentBlockerRequestHandler.swift */; };
-		A4D9A120258A0340009D7004 /* ContentBlocker (macOS).appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A4D9A113258A0340009D7004 /* ContentBlocker (macOS).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		A4D9A135258A0376009D7004 /* ContentBlocker (iOS).appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A4D9A12C258A0376009D7004 /* ContentBlocker (iOS).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A4D9A120258A0340009D7004 /* ContentBlocker macOS.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A4D9A113258A0340009D7004 /* ContentBlocker macOS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A4D9A135258A0376009D7004 /* ContentBlocker iOS.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A4D9A12C258A0376009D7004 /* ContentBlocker iOS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A4D9A15B258A06F4009D7004 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9A154258A06F4009D7004 /* Colors.swift */; };
 		A4D9A15C258A06F4009D7004 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9A154258A06F4009D7004 /* Colors.swift */; };
 		A4D9A15D258A06F4009D7004 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9A156258A06F4009D7004 /* AppState.swift */; };
@@ -58,7 +58,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				A4D9A120258A0340009D7004 /* ContentBlocker (macOS).appex in Embed App Extensions */,
+				A4D9A120258A0340009D7004 /* ContentBlocker macOS.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,7 +69,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				A4D9A135258A0376009D7004 /* ContentBlocker (iOS).appex in Embed App Extensions */,
+				A4D9A135258A0376009D7004 /* ContentBlocker iOS.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,12 +84,12 @@
 		A4D9A0FB258A02B4009D7004 /* Hush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D9A0FD258A02B4009D7004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4D9A0FE258A02B4009D7004 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		A4D9A113258A0340009D7004 /* ContentBlocker (macOS).appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ContentBlocker (macOS).appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D9A113258A0340009D7004 /* ContentBlocker macOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ContentBlocker macOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D9A115258A0340009D7004 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A4D9A11A258A0340009D7004 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
 		A4D9A11C258A0340009D7004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4D9A11D258A0340009D7004 /* ContentBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ContentBlocker.entitlements; sourceTree = "<group>"; };
-		A4D9A12C258A0376009D7004 /* ContentBlocker (iOS).appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ContentBlocker (iOS).appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D9A12C258A0376009D7004 /* ContentBlocker iOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ContentBlocker iOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D9A132258A0376009D7004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4D9A154258A06F4009D7004 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		A4D9A156258A06F4009D7004 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
@@ -165,8 +165,8 @@
 			children = (
 				A4D9A0F3258A02B4009D7004 /* Hush.app */,
 				A4D9A0FB258A02B4009D7004 /* Hush.app */,
-				A4D9A113258A0340009D7004 /* ContentBlocker (macOS).appex */,
-				A4D9A12C258A0376009D7004 /* ContentBlocker (iOS).appex */,
+				A4D9A113258A0340009D7004 /* ContentBlocker macOS.appex */,
+				A4D9A12C258A0376009D7004 /* ContentBlocker iOS.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -265,9 +265,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A4D9A0F2258A02B4009D7004 /* Hush (iOS) */ = {
+		A4D9A0F2258A02B4009D7004 /* Hush iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4D9A107258A02B4009D7004 /* Build configuration list for PBXNativeTarget "Hush (iOS)" */;
+			buildConfigurationList = A4D9A107258A02B4009D7004 /* Build configuration list for PBXNativeTarget "Hush iOS" */;
 			buildPhases = (
 				A4D9A0EF258A02B4009D7004 /* Sources */,
 				A4D9A0F0258A02B4009D7004 /* Frameworks */,
@@ -279,14 +279,14 @@
 			dependencies = (
 				A4D9A134258A0376009D7004 /* PBXTargetDependency */,
 			);
-			name = "Hush (iOS)";
+			name = "Hush iOS";
 			productName = "Hush (iOS)";
 			productReference = A4D9A0F3258A02B4009D7004 /* Hush.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A4D9A0FA258A02B4009D7004 /* Hush (macOS) */ = {
+		A4D9A0FA258A02B4009D7004 /* Hush macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4D9A10A258A02B4009D7004 /* Build configuration list for PBXNativeTarget "Hush (macOS)" */;
+			buildConfigurationList = A4D9A10A258A02B4009D7004 /* Build configuration list for PBXNativeTarget "Hush macOS" */;
 			buildPhases = (
 				A4D9A0F7258A02B4009D7004 /* Sources */,
 				A4D9A0F8258A02B4009D7004 /* Frameworks */,
@@ -298,14 +298,14 @@
 			dependencies = (
 				A4D9A11F258A0340009D7004 /* PBXTargetDependency */,
 			);
-			name = "Hush (macOS)";
+			name = "Hush macOS";
 			productName = "Hush (macOS)";
 			productReference = A4D9A0FB258A02B4009D7004 /* Hush.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A4D9A112258A0340009D7004 /* ContentBlocker (macOS) */ = {
+		A4D9A112258A0340009D7004 /* ContentBlocker macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4D9A121258A0340009D7004 /* Build configuration list for PBXNativeTarget "ContentBlocker (macOS)" */;
+			buildConfigurationList = A4D9A121258A0340009D7004 /* Build configuration list for PBXNativeTarget "ContentBlocker macOS" */;
 			buildPhases = (
 				A4D9A10F258A0340009D7004 /* Sources */,
 				A4D9A110258A0340009D7004 /* Frameworks */,
@@ -316,14 +316,14 @@
 			);
 			dependencies = (
 			);
-			name = "ContentBlocker (macOS)";
+			name = "ContentBlocker macOS";
 			productName = ContentBlocker;
-			productReference = A4D9A113258A0340009D7004 /* ContentBlocker (macOS).appex */;
+			productReference = A4D9A113258A0340009D7004 /* ContentBlocker macOS.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		A4D9A12B258A0376009D7004 /* ContentBlocker (iOS) */ = {
+		A4D9A12B258A0376009D7004 /* ContentBlocker iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4D9A136258A0376009D7004 /* Build configuration list for PBXNativeTarget "ContentBlocker (iOS)" */;
+			buildConfigurationList = A4D9A136258A0376009D7004 /* Build configuration list for PBXNativeTarget "ContentBlocker iOS" */;
 			buildPhases = (
 				A4D9A128258A0376009D7004 /* Sources */,
 				A4D9A129258A0376009D7004 /* Frameworks */,
@@ -334,9 +334,9 @@
 			);
 			dependencies = (
 			);
-			name = "ContentBlocker (iOS)";
+			name = "ContentBlocker iOS";
 			productName = ContentBlocker;
-			productReference = A4D9A12C258A0376009D7004 /* ContentBlocker (iOS).appex */;
+			productReference = A4D9A12C258A0376009D7004 /* ContentBlocker iOS.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -375,10 +375,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4D9A0F2258A02B4009D7004 /* Hush (iOS) */,
-				A4D9A12B258A0376009D7004 /* ContentBlocker (iOS) */,
-				A4D9A0FA258A02B4009D7004 /* Hush (macOS) */,
-				A4D9A112258A0340009D7004 /* ContentBlocker (macOS) */,
+				A4D9A0F2258A02B4009D7004 /* Hush iOS */,
+				A4D9A12B258A0376009D7004 /* ContentBlocker iOS */,
+				A4D9A0FA258A02B4009D7004 /* Hush macOS */,
+				A4D9A112258A0340009D7004 /* ContentBlocker macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -511,12 +511,12 @@
 /* Begin PBXTargetDependency section */
 		A4D9A11F258A0340009D7004 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A4D9A112258A0340009D7004 /* ContentBlocker (macOS) */;
+			target = A4D9A112258A0340009D7004 /* ContentBlocker macOS */;
 			targetProxy = A4D9A11E258A0340009D7004 /* PBXContainerItemProxy */;
 		};
 		A4D9A134258A0376009D7004 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A4D9A12B258A0376009D7004 /* ContentBlocker (iOS) */;
+			target = A4D9A12B258A0376009D7004 /* ContentBlocker iOS */;
 			targetProxy = A4D9A133258A0376009D7004 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -640,6 +640,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = H28Z7NT4JR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -663,6 +664,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = H28Z7NT4JR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -775,6 +777,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = H28Z7NT4JR;
 				INFOPLIST_FILE = iOS/ContentBlocker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
@@ -797,6 +800,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = H28Z7NT4JR;
 				INFOPLIST_FILE = iOS/ContentBlocker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
@@ -827,7 +831,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4D9A107258A02B4009D7004 /* Build configuration list for PBXNativeTarget "Hush (iOS)" */ = {
+		A4D9A107258A02B4009D7004 /* Build configuration list for PBXNativeTarget "Hush iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4D9A108258A02B4009D7004 /* Debug */,
@@ -836,7 +840,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4D9A10A258A02B4009D7004 /* Build configuration list for PBXNativeTarget "Hush (macOS)" */ = {
+		A4D9A10A258A02B4009D7004 /* Build configuration list for PBXNativeTarget "Hush macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4D9A10B258A02B4009D7004 /* Debug */,
@@ -845,7 +849,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4D9A121258A0340009D7004 /* Build configuration list for PBXNativeTarget "ContentBlocker (macOS)" */ = {
+		A4D9A121258A0340009D7004 /* Build configuration list for PBXNativeTarget "ContentBlocker macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4D9A122258A0340009D7004 /* Debug */,
@@ -854,7 +858,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4D9A136258A0376009D7004 /* Build configuration list for PBXNativeTarget "ContentBlocker (iOS)" */ = {
+		A4D9A136258A0376009D7004 /* Build configuration list for PBXNativeTarget "ContentBlocker iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4D9A137258A0376009D7004 /* Debug */,
