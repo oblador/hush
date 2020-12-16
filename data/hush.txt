@@ -6,8 +6,41 @@
 ! Discovered on getdreams.com
 ##[aria-label="cookieconsent"]
 
+! Metomic widget (metomic.io)
+! Discovered on dimensions.com
+||consent-manager.metomic.io/embed.js$script
+
+! Evidon
+! Discovered on pcmag.com
+###_evidon-barrier-wrapper
+###_evidon_banner
+||cdn.ziffstatic.com
+
+! LiveRamp
+! Discovered on macrumors.com
+||gdpr-consent-tool.privacymanager.io$third-party
+
 ! Site specific rules
 
 breakit.se##.leadinModal, .qc-cmp-cleanslate
 dn.se##.gdpr-header,#dnse-bottom-bar
 theguardian.com##[id^="sp_message_container"]
+nytimes.com##.gdpr
+cnbc.com###cnbcgdpr
+
+! Discovered on inputmag.com
+||quantcast.mgr.consensu.org/*/cmp2.js$script
+
+! Discovered on cultofmac.com
+||ezodn.com/cmp/altconsent.js$script
+###ezmobfooter
+
+outsideonline.com##.main-container > .notice
+
+! This is pretty specific and likely to break as
+! identifiers are code generated
+producthunt.com##[role="navigation"] [class^="styles_header__"] + [class^="style_container__"],#__next > [class^="style_container__"]
+
+! Email sign up
+
+sifted.eu###signUp
