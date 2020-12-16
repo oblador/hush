@@ -3,6 +3,9 @@ import { flattenSelectors } from "./src/optimize.js";
 
 const LISTS = ["../data/block-the-eu-cookie-shit-list.txt", "../data/hush.txt"];
 
+const stringify = (data) =>
+  Deno.env.get("MINIFY") ? JSON.stringify(data) : JSON.stringify(data, null, 2);
+
 const resolveRelative = (path) => new URL(path, import.meta.url).pathname;
 
 const readTextFile = (path) =>
@@ -18,4 +21,4 @@ const converted = LISTS
 
 const optimized = flattenSelectors(converted);
 
-console.log(JSON.stringify(optimized, null, 2));
+console.log(stringify(optimized));

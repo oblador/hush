@@ -1,11 +1,7 @@
-build:
-	make fetch_blocklist
-	make build_blocklist
-
 format:
 	deno fmt scripts
 
-fetch_blocklist:
+fetch_external:
 	curl \
 		--output data/block-the-eu-cookie-shit-list.txt \
 		--silent \
@@ -14,5 +10,15 @@ fetch_blocklist:
 		--fail \
 		--url https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt
 
-build_blocklist:
-	deno run --allow-read=./data scripts/build-blocklist.js > Shared/blockerList.json
+blocklist:
+	~/.deno/bin/deno run --allow-read=./data --allow-env=MINIFY scripts/build-blocklist.js
+
+xcode:
+ifeq ("$(CONFIGURATION_BUILD_DIR)","")
+	$(error CONFIGURATION_BUILD_DIR env is not set, make this command is run from Xcode)
+endif
+ifeq ("$(UNLOCALIZED_RESOURCES_FOLDER_PATH)","")
+	$(error UNLOCALIZED_RESOURCES_FOLDER_PATH env is not set, make this command is run from Xcode)
+endif
+	mkdir -p "$(CONFIGURATION_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)"
+	MINIFY=1 make blocklist --silent > "$(CONFIGURATION_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/blockerList.json"
