@@ -3,7 +3,6 @@ import SafariServices
 
 @main
 struct HushApp: App {
-    @Environment(\.scenePhase) var scenePhase
     let contentBlockerIdentifier = "\(Bundle.main.bundleIdentifier ?? "se.oblador.Hush").ContentBlocker"
     let appState = AppState()
 
@@ -35,19 +34,25 @@ struct HushApp: App {
     }
 
     var body: some Scene {
+        #if os(macOS)
+        WindowGroup {
+            ContentView()
+                .environmentObject(appState)
+                .onReceive(NotificationCenter.default.publisher(for: NSApplication.willBecomeActiveNotification)) { _ in
+                    refreshEnabledState()
+                }
+                .frame(minWidth: 300, idealWidth: 350, maxWidth: 500, minHeight: 420, idealHeight: 460, maxHeight: 600, alignment: .center)
+        }
+        .windowStyle(HiddenTitleBarWindowStyle())
+        #else
         WindowGroup {
             ContentView()
                 .environmentObject(appState)
                 .onAppear(perform: refreshEnabledState)
-                .onChange(of: scenePhase, perform: { phase in
-                    if (phase == .active) {
-                        refreshEnabledState()
-                    }
-                })
-                .frame(minWidth: 300, idealWidth: 350, maxWidth: .infinity, minHeight: 420, idealHeight: 460, maxHeight: .infinity, alignment: .center)
+                .onReceive(NotificationCenter.default.publisher(for: UIApplication.willEnterForegroundNotification)) { _ in
+                    refreshEnabledState()
+                }
         }
-//        #if os(macOS)
-//        .windowStyle(HiddenTitleBarWindowStyle())
-//        #endif
+        #endif
     }
 }

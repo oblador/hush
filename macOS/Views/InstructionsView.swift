@@ -1,8 +1,6 @@
 import SwiftUI
 
 struct InstructionsView: View {
-    let safariBundleIdentifier = "com.apple.Safari"
-
     var body: some View {
         VStack {
             Text("Hush is not enabled")
@@ -12,25 +10,10 @@ struct InstructionsView: View {
 
             InstructionView(
                 imageName: "Safari",
-                text: AnyView(HStack(spacing: 0) {
-                    Text("Open ")
-                    Button("Safari") {
-                        do {
-                            let safariURL = try FileManager.default.url(for: .applicationDirectory, in: .localDomainMask, appropriateFor: nil, create: false).appendingPathComponent("Safari.app")
-                            NSWorkspace.shared.open([], withApplicationAt: safariURL, configuration: .init()) { (runningApp, error) in
-                                print("running app", runningApp ?? "nil")
-                            }
-                        } catch {
-                            print(error)
-                        }
-                    }
-                    Link(destination: URL(string: "prefs:safari")!, label: {
-                        Text("Safari")
-                            .underline()
-                            .bold()
-                            .foregroundColor(.primary)
-                    })
-                })
+                text: AnyView(
+                    Text("Open ") +
+                    Text("Safari").bold()
+                )
             )
             InstructionView(
                 imageName: "Settings",
