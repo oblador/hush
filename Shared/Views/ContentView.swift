@@ -21,11 +21,12 @@ struct ContentView: View {
                     .renderingMode(.template)
                     .foregroundColor(.invertedBackgroundColor)
                     .frame(width: 200, height: 155)
-                VStack {
-                    (self.appState.contentBlockerEnabledState == .disabled
-                        ? AnyView(InstructionsView())
-                        : nil
-                    )
+                VStack { () -> AnyView? in
+                    switch(self.appState.contentBlockerEnabledState) {
+                    case .disabled: return AnyView(InstructionsView())
+                    case .enabled: return AnyView(AllOKView().padding(10))
+                    case .undetermined: return nil
+                    }
                 }.padding(.top, 40)
             }
         }
