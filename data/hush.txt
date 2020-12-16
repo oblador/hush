@@ -1,4 +1,10 @@
-[Adblock Plus 1.1]
+!// Generic rules
 
-breakit.se###leadinModal, #qc-cmp-cleanslate
+##.js-cookie-consent-banner
+##[aria-label="cookieconsent"]
+
+!// Site specific rules
+
+breakit.se##.leadinModal, .qc-cmp-cleanslate
+dn.se##.gdpr-header,#dnse-bottom-bar
 theguardian.com##[id^="sp_message_container"]

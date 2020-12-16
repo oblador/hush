@@ -9,6 +9,13 @@ fetch_external:
 		--location \
 		--fail \
 		--url https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt
+	curl \
+		--output data/dont-push-me.txt \
+		--silent \
+		--show-error \
+		--location \
+		--fail \
+		--url https://raw.githubusercontent.com/caffeinewriter/DontPushMe/master/filterlist.txt
 
 blocklist:
 	~/.deno/bin/deno run --allow-read=./data --allow-env=MINIFY scripts/build-blocklist.js

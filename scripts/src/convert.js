@@ -1,4 +1,3 @@
-const EXPECTED_FORMAT = "[Adblock Plus 1.1]";
 const COMMENT_PREFIX = "!";
 const ELEMENT_HIDE_SEPARATOR = "##";
 const ELEMENT_HIDE_EXCEPTION_SEPARATOR = "#@#";
@@ -11,7 +10,9 @@ const ANCHOR = "|";
 const EXTENDED_SELECTOR_SEPARATOR = "#?#";
 const SNIPPET_SEPARATOR = "#$#";
 
-const isNotComment = (line) => !line.startsWith(COMMENT_PREFIX);
+const isRule = (line) =>
+  Boolean(line) && !line.startsWith(COMMENT_PREFIX) &&
+  !line.startsWith("[Adblock");
 const isBlock = (line) => line.startsWith(BLOCK_PREFIX);
 const isExactAddressBlock = (line) => line.startsWith(ANCHOR) && !isBlock(line);
 const isBlockException = (line) => line.startsWith(BLOCK_EXCEPTION_PREFIX);
@@ -131,16 +132,8 @@ const transformLine = (line) => {
 };
 
 export function convert(data) {
-  const [format, ...lines] = data.split("\n");
-
-  if (format !== EXPECTED_FORMAT) {
-    throw new Error(`Unknown format, expected ${EXPECTED_FORMAT}`);
-  }
-
-  return lines
-    .filter(isNotComment)
-    .filter(Boolean)
+  return data
+    .split("\n")
+    .filter(isRule)
     .map(transformLine);
-
-  // Flatten generic hide selectors
 }

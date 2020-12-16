@@ -1,7 +1,11 @@
 import { convert } from "./src/convert.js";
 import { flattenSelectors } from "./src/optimize.js";
 
-const LISTS = ["../data/block-the-eu-cookie-shit-list.txt", "../data/hush.txt"];
+const LISTS = [
+  "../data/block-the-eu-cookie-shit-list.txt",
+  "../data/dont-push-me.txt",
+  "../data/hush.txt",
+];
 
 const stringify = (data) =>
   Deno.env.get("MINIFY") ? JSON.stringify(data) : JSON.stringify(data, null, 2);
