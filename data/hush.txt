@@ -1,12 +1,6 @@
-! Generic rules
+! ## Third party widgets ##
 
-! Discovered on github.com
-##.js-cookie-consent-banner
-
-! Discovered on getdreams.com
-##[aria-label="cookieconsent"]
-
-! Metomic widget (metomic.io)
+! Metomic (metomic.io)
 ! Discovered on dimensions.com
 ||consent-manager.metomic.io/embed.js$script
 
@@ -20,13 +14,11 @@
 ! Discovered on macrumors.com
 ||gdpr-consent-tool.privacymanager.io$third-party
 
-! Site specific rules
-
-breakit.se##.leadinModal, .qc-cmp-cleanslate
-dn.se##.gdpr-header,#dnse-bottom-bar
-theguardian.com##[id^="sp_message_container"]
-nytimes.com##.gdpr
-cnbc.com###cnbcgdpr
+! Sourcepoint (sourcepoint.com)
+! Discovered on bloomberg.com
+||sourcepointcmp.bloomberg.com/$script
+||cdn.privacy-mgmt.com/$script
+||gdpr-tcfv2.sp-prod.net/dd/wrapperMessagingWithoutDetection.js$script
 
 ! Discovered on inputmag.com
 ||quantcast.mgr.consensu.org/*/cmp2.js$script
@@ -35,7 +27,40 @@ cnbc.com###cnbcgdpr
 ||ezodn.com/cmp/altconsent.js$script
 ###ezmobfooter
 
+! OneTrust (onetrust.com)
+! Discovered on cnn.com
+||cdn.cookielaw.org
+###onetrust-consent-sdk
+
+! TrustArc (trustarc.com)
+! Discovered on zoom.us
+||consent-pref.trustarc.com$script
+||consent.trustarc.com$script
+
+||fundingchoicesmessages.google.com$third-party
+
+! ## Generic rules ##
+
+! Discovered on accuweather.com
+###privacy-policy-banner
+
+! Discovered on getdreams.com
+##[aria-label="cookieconsent"]
+
+! ## Site specific rules ##
+
+github.com##.js-cookie-consent-banner
+theguardian.com##[id^="sp_message_container"]
+nytimes.com##.gdpr
+cnbc.com###cnbcgdpr
 outsideonline.com##.main-container > .notice
+foxnews.com##[data-banner-type="ccpa"]
+microsoft.com,office.com###uhfCookieAlert
+paypal.com###gdprCookieBanner
+semrush.com##.sem-cookie-notice
+linkedin.com##.artdeco-global-alert--COOKIE_CONSENT
+etsy.com##.policy-update-notice-may-2018
+twitch.tv##.consent-banner
 
 ! This is pretty specific and likely to break as
 ! identifiers are code generated
@@ -44,3 +69,14 @@ producthunt.com##[role="navigation"] [class^="styles_header__"] + [class^="style
 ! Email sign up
 
 sifted.eu###signUp
+
+! Swedish sites
+breakit.se##.leadinModal, .qc-cmp-cleanslate
+dn.se##.gdpr-header,#dnse-bottom-bar
+digital.di.se##.gdpr-policy-bar
+di.se##.gdpr-policy
+
+! Blockers
+
+! Discovered on fandom.com
+||static.wikia.nocookie.net/*/tracking-opt-in$script
