@@ -734,7 +734,6 @@
 @@||tweakers.net^$document
 accuweather.com###eu-cookie-notify-wrap
 actu-environnement.com###informations-cookies
-akka.io##.optanon-alert-box-wrapper:has-text(This site uses cookies)
 allrecipes.com###privacyNotification
 ancestry.co.uk###Banner_50001
 ancestry.co.uk###Banner_cookie_1
@@ -802,8 +801,6 @@ claireperry.org.uk###message
 clarkewillmott.com###cookiestext
 cloud.digitalocean.com##.cc-window[aria-label="cookieconsent"]
 cloudflare.com##.eu-cookie-banner
-cnbc.com###_evh-ric:has-text(cookies)
-cnn.com##.optanon-alert-box-wrapper:has-text(We use cookies)
 co-operativebank.co.uk###noticePanel
 codehousegroup.com/js/libs/cookie-check.js$script
 cofunds.co.uk##.idrPageRow[style^="min-height:0;height:auto;padding:0;position:relative;z-index:1;zoom:1;border:none;"]
@@ -830,7 +827,6 @@ digitaltrends.com##body.cookie-dialog-up:style(overflow:auto !important)
 diy.com###noScriptCookies
 dolce-gusto.co.uk###nimgrowler
 dostavanadom.com###cookies
-downdetector.com###overlay.container:has-text(use cookies to provide)
 dr.dk##.dr-cookie-info-box
 dr.dk##.dr-infobox
 dr.dk##DIV[class="cookie-info-box"]
@@ -925,7 +921,6 @@ ipnordic.dk##.ultimize_cookie_notification_container
 istockphoto.com###euCookieBar
 itele.fr###cnil_alert_inner
 itworld.com##body:style(overflow:auto !important)
-itworld.com##body>div:has-text(We care about your privacy)
 jman.tv###ActionBar
 jobindex.dk##.jix_acceptcookies_box
 jobs.ac.uk##.eucookies
@@ -970,7 +965,6 @@ mclaren.com###block-cookie-info
 mclarenstore.com##.widget-notifyBar
 media.netflix.com#@##cookieAlert
 mediapart.fr###cnil-sentence
-meetup.com##div.stripe:has-text(We use cookies)
 mercialys.fr##.info-top
 merlin.pl##.cookies_policy
 miniclip.com###eu-cookie
@@ -1008,7 +1002,6 @@ nrc.nl##.cookiemonster
 nwolb.com###ctl00_privacyCookies_LIPCNB_PrivacyandCookiesNoticePanel
 nyhederne.tv2.dk###tv2cookiebar
 nyheter24.se###acceptCookiesDiv
-nytimes.com##div.shown:has-text(Review our cookie policy)
 o2.co.uk#@#.cookies
 olvg.nl###cc
 onlive.co.uk##.top_message
@@ -1072,7 +1065,6 @@ savi-france.fr###notifybar
 seetickets.com##.cookieslaw
 seloger.com##.container_cookies
 serverfault.com###js-gdpr-consent-banner
-showcasecinemas.co.uk##div.section-prompt:has-text(About Cookies)
 shropshirestar.com##.inner
 siepisze.pl##div[class^="pea_cook_wrapper"]
 singaporeair.com##.popup--cookie.popup-1
@@ -1111,7 +1103,6 @@ tandfonline.com##.b-header
 tddirectinvesting.co.uk###cookieWindowContainer
 techradar.com###cmp-container-id
 techradar.com##.cc-banner
-techrepublic.com###_evidon_banner:has-text(use cookies for personalized)
 techrepublic.com###cookieCont
 telmore.dk###CookieDiv
 tesco.com###cp
@@ -1215,7 +1206,6 @@ www.sentres.com##.cookies-eu
 www.tf1.fr##.banner_cookies
 www.theguardian.com##.site-message--cookies.site-message--banner.js-site-message.site-message
 www.vobadirekt.de##.lightbox--cookie-consent
-www.vobadirekt.de##:xpath(//*[contains(@class, "darken-layer") and /*//*[contains(@class, "lightbox--cookie-consent")]])
 www.wykop.pl##DIV[class="annotation type-alert type-permanent lspace m-reset-position closableContainer"]
 zenska.si#@##cookie-bar
 zonaforo.meristation.com##.inner

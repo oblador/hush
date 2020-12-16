@@ -76,6 +76,9 @@ const transformLine = (line) => {
       ? ELEMENT_HIDE_EXCEPTION_SEPARATOR
       : ELEMENT_HIDE_SEPARATOR;
     const [domains, selector] = line.split(separator);
+    if (selector.includes(':has-text') || selector.includes(':xpath')) {
+    	throw new Error(`Custom CSS extensions not supported, got "${line}"`)
+    }
     return {
       trigger: {
         "url-filter": ".*",
