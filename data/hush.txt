@@ -1,9 +1,12 @@
-!// Generic rules
+! Generic rules
 
+! Discovered on github.com
 ##.js-cookie-consent-banner
+
+! Discovered on getdreams.com
 ##[aria-label="cookieconsent"]
 
-!// Site specific rules
+! Site specific rules
 
 breakit.se##.leadinModal, .qc-cmp-cleanslate
 dn.se##.gdpr-header,#dnse-bottom-bar
