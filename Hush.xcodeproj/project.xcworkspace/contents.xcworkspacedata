@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/joelarvidsson/Code/ConsentMeNot/Hush.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

@@ -15,4 +15,4 @@ fetch_blocklist:
 		--url https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt
 
 build_blocklist:
-	deno run --allow-read=./data scripts/build-blocklist.js > ContentBlocker/blockerList.json
+	deno run --allow-read=./data scripts/build-blocklist.js > Shared/blockerList.json
