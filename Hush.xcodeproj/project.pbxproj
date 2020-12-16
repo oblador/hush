@@ -30,6 +30,7 @@
 		A4D9A176258A08D5009D7004 /* InstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9A175258A08D5009D7004 /* InstructionView.swift */; };
 		A4D9A177258A08D5009D7004 /* InstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9A175258A08D5009D7004 /* InstructionView.swift */; };
 		A4E2FFBD258A2EB700F0E52A /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9A11A258A0340009D7004 /* ContentBlockerRequestHandler.swift */; };
+		A4E2FFCB258A339700F0E52A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E2FFC9258A339700F0E52A /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		A4D9A15A258A06F4009D7004 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A4D9A16B258A089D009D7004 /* InstructionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
 		A4D9A175258A08D5009D7004 /* InstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionView.swift; sourceTree = "<group>"; };
+		A4E2FFC9258A339700F0E52A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 		A4D9A0FC258A02B4009D7004 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				A4E2FFC9258A339700F0E52A /* AppDelegate.swift */,
 				A4D9A16A258A086F009D7004 /* Views */,
 				A4D9A117258A0340009D7004 /* ContentBlocker */,
 				A4D9A0FD258A02B4009D7004 /* Info.plist */,
@@ -431,6 +434,7 @@
 			files = (
 				A4D9A15E258A06F4009D7004 /* AppState.swift in Sources */,
 				A4D9A164258A06F4009D7004 /* ContentView.swift in Sources */,
+				A4E2FFCB258A339700F0E52A /* AppDelegate.swift in Sources */,
 				A4D9A100258A02B4009D7004 /* HushApp.swift in Sources */,
 				A4D9A16C258A089D009D7004 /* InstructionsView.swift in Sources */,
 				A4D9A177258A08D5009D7004 /* InstructionView.swift in Sources */,
