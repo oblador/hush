@@ -15,7 +15,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Color.appBackgroundColor.ignoresSafeArea()
-            VStack {
+            VStack (spacing: 40) {
                 Image(self.appState.contentBlockerEnabledState == .disabled ? "Disabled" : "Enabled")
                     .resizable()
                     .renderingMode(.template)
@@ -27,7 +27,7 @@ struct ContentView: View {
                     case .enabled: return AnyView(AllOKView().padding(10))
                     case .undetermined: return nil
                     }
-                }.padding(.top, 40)
+                }
             }
         }
     }
