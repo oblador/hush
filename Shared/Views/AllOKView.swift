@@ -17,17 +17,22 @@ struct AllOKView: View {
     let reportWebsiteURL = URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSeox139lwja1Yl94dIZLSg8Ga8Wt4PAWSmRwtIe7NPb7WtHMA/viewform")!
     let starProjectURL = URL(string: "https://github.com/oblador/hush")!
     
+    #if os(macOS)
+    let verticalSpacing: CGFloat = 25
+    #else
+    let verticalSpacing: CGFloat = 40
+    #endif
     
     var body: some View {
-        VStack (alignment: .center, spacing: 40) {
+        VStack (alignment: .leading, spacing: verticalSpacing) {
             
-            (Text("All set! ")
-                .bold()
-                +
-            Text("You may close the app and browse nag-free."))
-                .font(.subheadline)
+            VStack (alignment: .leading, spacing: 5) {
+                Text("All set!")
+                    .bold()
+                 Text("You may close the app and browse nag-free.")
+            }
 
-            VStack (alignment: .center, spacing: 15) {
+            VStack (alignment: .leading, spacing: 10) {
                 Text("Problem? ")
                     .bold() +
                 Text("No problem! ")
@@ -39,12 +44,12 @@ struct AllOKView: View {
                         .foregroundColor(.primary)
                 })
             }
-            
-            VStack (alignment: .center, spacing: 15) {
+
+            VStack (alignment: .leading, spacing: 10) {
                 Text("Love it? ")
                     .bold() +
                     Text("Spread it! ")
-                
+
                 HStack (spacing: 0) {
                     Link(destination: reviewURL, label: {
                         Text("Write a review")

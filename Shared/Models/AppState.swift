@@ -7,5 +7,8 @@ enum ContentBlockerEnabledState {
 }
 
 class AppState: ObservableObject {
-    @Published var contentBlockerEnabledState: ContentBlockerEnabledState = .undetermined
+    @Published var contentBlockerEnabledState: ContentBlockerEnabledState
+    init(initialContentBlockerEnabledState:ContentBlockerEnabledState) {
+        self.contentBlockerEnabledState = initialContentBlockerEnabledState
+    }
 }

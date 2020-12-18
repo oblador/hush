@@ -8,7 +8,7 @@ struct HushApp: App {
     #endif
 
     let contentBlockerIdentifier = "\(Bundle.main.bundleIdentifier ?? "se.oblador.Hush").ContentBlocker"
-    let appState = AppState()
+    let appState = AppState(initialContentBlockerEnabledState: .undetermined)
 
     init() {
         SFContentBlockerManager.reloadContentBlocker(withIdentifier: contentBlockerIdentifier,
@@ -45,7 +45,14 @@ struct HushApp: App {
                 .onReceive(NotificationCenter.default.publisher(for: NSApplication.willBecomeActiveNotification)) { _ in
                     refreshEnabledState()
                 }
-                .frame(minWidth: 300, idealWidth: 350, maxWidth: 500, minHeight: 420, idealHeight: 460, maxHeight: 600, alignment: .center)
+                .frame(
+                    minWidth: 320,
+                    idealWidth: 350,
+                    maxWidth: 500,
+                    minHeight: 440,
+                    idealHeight: 460,
+                    maxHeight: 600
+                )
         }
         .windowStyle(HiddenTitleBarWindowStyle())
         #else
