@@ -1,0 +1,15 @@
+! ----- Site specific rules -----
+
+! ----- Hidden cookie consent selectors -----
+nytimes.com##.gdpr
+cnbc.com###cnbcgdpr
+paypal.com###gdprCookieBanner
+fedex.com##.fxg-cookie-consent
+
+! ----- Hidden newsletter signup selectors -----
+
+sifted.eu###signUp
+
+! ----- Hidden donation nag selectors -----
+
+npr.com##.donation-portal-modal

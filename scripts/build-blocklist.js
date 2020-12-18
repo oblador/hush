@@ -2,9 +2,10 @@ import { convert } from "./src/convert.js";
 import { flattenSelectors } from "./src/optimize.js";
 
 const LISTS = [
-  "../data/block-the-eu-cookie-shit-list.txt",
-  "../data/dont-push-me.txt",
-  "../data/hush.txt",
+  "../data/vendor/fanboy-cookiemonster.txt",
+  "../data/generic.txt",
+  "../data/third-party.txt",
+  "../data/site-specific.txt",
 ];
 
 const stringify = (data) =>

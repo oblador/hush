@@ -1,3 +1,5 @@
+// deno-fmt-ignore-file
+//
 // Vendored from https://github.com/bestiejs/punycode.js/blob/master/punycode.js
 // and modified to a JS module as it's not published for Deno
 //

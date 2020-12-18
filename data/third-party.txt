@@ -1,0 +1,5 @@
+! ----- Third party widgets -----
+
+! Discovered on cultofmac.com
+||ezodn.com/cmp/altconsent.js$third-party
+###ezmobfooter

@@ -1,0 +1,4 @@
+! ----- Generic hide rules -----
+
+! Discovered on accuweather.com
+###privacy-policy-banner

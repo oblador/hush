@@ -2,20 +2,7 @@ format:
 	deno fmt scripts
 
 fetch_external:
-	curl \
-		--output data/block-the-eu-cookie-shit-list.txt \
-		--silent \
-		--show-error \
-		--location \
-		--fail \
-		--url https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt
-	curl \
-		--output data/dont-push-me.txt \
-		--silent \
-		--show-error \
-		--location \
-		--fail \
-		--url https://raw.githubusercontent.com/caffeinewriter/DontPushMe/master/filterlist.txt
+	deno run --allow-write=./data --allow-net scripts/fetch-external.js
 
 blocklist:
 	deno run --allow-read=./data --allow-env=MINIFY scripts/build-blocklist.js
