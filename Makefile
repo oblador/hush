@@ -18,7 +18,7 @@ fetch_external:
 		--url https://raw.githubusercontent.com/caffeinewriter/DontPushMe/master/filterlist.txt
 
 blocklist:
-	~/.deno/bin/deno run --allow-read=./data --allow-env=MINIFY scripts/build-blocklist.js
+	deno run --allow-read=./data --allow-env=MINIFY scripts/build-blocklist.js
 
 xcode:
 ifeq ("$(CONFIGURATION_BUILD_DIR)","")
