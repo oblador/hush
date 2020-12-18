@@ -45,9 +45,9 @@ Deno.test("Hide by id and domain", () => {
 });
 
 Deno.test("Hide by html attribute", () => {
-  assertEquals(transformLine("##div[class$=\"UpdatePanelCookie\"]"), {
+  assertEquals(transformLine('##div[class$="UpdatePanelCookie"]'), {
     action: {
-      selector: "div[class$=\"UpdatePanelCookie\"]",
+      selector: 'div[class$="UpdatePanelCookie"]',
       type: "css-display-none",
     },
     trigger: {
@@ -55,18 +55,6 @@ Deno.test("Hide by html attribute", () => {
     },
   });
 });
-
-// Deno.test("Excempt hide by html attribute and domain", () => {
-//   assertEquals(transformLine("bethesda.net#?#visor-alert[name=\"visor-alert\"] > div[class=""] > div > div:last-child:-abp-has( > a[href$=\"/cookie-policy\"])"), {
-//     action: {
-//       selector: "div[class$=\"UpdatePanelCookie\"]",
-//       type: "css-display-none",
-//     },
-//     trigger: {
-//       "url-filter": ".*",
-//     },
-//   });
-// });
 
 Deno.test("Block filter escapes special characters", () => {
   assertEquals(transformLine("/wa_lib.js"), {
@@ -121,7 +109,7 @@ Deno.test("Block filter with ^ in the middle of the pattern", () => {
         type: "block",
       },
       trigger: {
-	      "url-filter": "thscore\\.co[?/].*\\/backTop\\.",
+        "url-filter": "thscore\\.co[?/].*\\/backTop\\.",
       },
     },
   );
@@ -153,6 +141,23 @@ Deno.test("Block filter excempt", () => {
       "url-filter": "consent\\.truste\\.com([?/].*)?$",
     },
   });
+  assertEquals(
+    transformLine("@@/wp-content/*/1x1.trans.gif$image,~third-party"),
+    {
+      action: {
+        type: "ignore-previous-rules",
+      },
+      trigger: {
+        "load-type": [
+          "first-party",
+        ],
+        "resource-type": [
+          "image",
+        ],
+        "url-filter": "\\/wp\\-content\\/.*\\/1x1\\.trans\\.gif",
+      },
+    },
+  );
 });
 
 Deno.test("Block filter for third party", () => {
@@ -190,6 +195,20 @@ Deno.test("Block filter for negative resource types", () => {
   });
 });
 
+Deno.test("Block filter for raw resource types", () => {
+  assertEquals(transformLine("lol$other"), {
+    action: {
+      type: "block",
+    },
+    trigger: {
+      "resource-type": [
+        "raw",
+      ],
+      "url-filter": "lol",
+    },
+  });
+});
+
 Deno.test("Converts IDNs to ASCII", () => {
   assertEquals(transformLine("bafög.de###privacy-note"), {
     action: {
@@ -201,6 +220,15 @@ Deno.test("Converts IDNs to ASCII", () => {
         "*xn--bafg-7qa.de",
       ],
       "url-filter": ".*",
+    },
+  });
+
+  assertEquals(transformLine("@@||allestörungen.ch^$generichide"), {
+    action: {
+      type: "ignore-previous-rules",
+    },
+    trigger: {
+      "url-filter": "xn\\-\\-allestrungen\\-9ib\\.ch([?/].*)?$",
     },
   });
 });
