@@ -2,7 +2,7 @@ import SwiftUI
 
 struct InstructionView: View {
     var imageName: String
-    var text: AnyView
+    var text: Text
     
     var body: some View {
         HStack (alignment: .center, spacing: 10){
@@ -16,73 +16,78 @@ struct InstructionView: View {
 }
 
 struct InstructionsView: View {
+    #if os(macOS)
+    let verticalSpacing: CGFloat = 10
+    #else
+    let verticalSpacing: CGFloat = 20
+    #endif
+
     var body: some View {
-        VStack (alignment: .leading, spacing: 15) {
-            VStack {
+        VStack (alignment: .leading, spacing: 30) {
+            VStack (alignment: .leading, spacing: 10) {
                 Text("Hush is not enabled")
                     .font(.title)
-                    .bold()
+                Text("Follow these steps to enable:")
             }
-            .frame(
-                maxWidth: .infinity,
-                alignment: .center
-            )
-            .padding(.bottom, 20)
 
             #if os(macOS)
-            InstructionView(
-                imageName: "Safari",
-                text: AnyView(
-                    Text("Open ") +
+            VStack (alignment: .leading, spacing: 10) {
+                InstructionView(
+                    imageName: "Safari",
+                    text:
+                        Text("Open ") +
                         Text("Safari").bold()
                 )
-            )
-            InstructionView(
-                imageName: "Settings",
-                text: AnyView(
-                    Text("Select ") +
+                InstructionView(
+                    imageName: "Settings",
+                    text:
+                        Text("Select ") +
                         Text("Extensions").bold() +
                         Text(" in ") +
                         Text("Settings").bold()
                 )
-            )
-            InstructionView(
-                imageName: "Checkbox",
-                text: AnyView(
-                    Text("Enable ") +
+                InstructionView(
+                    imageName: "Checkbox",
+                    text:
+                        Text("Enable ") +
                         Text("Hush").bold()
                 )
-            )
+            }
             #else
-            InstructionView(
-                imageName: "Settings",
-                text: AnyView(HStack(spacing: 0) {
-                    Text("Open ")
-                    Link(destination: URL(string: "App-Prefs:root")!, label: {
-                        Text("Settings")
-                            .underline()
-                            .bold()
-                            .foregroundColor(.primary)
-                    })
-                    Text(" app")
-                })
-            )
-            InstructionView(
-                imageName: "Safari",
-                text: AnyView(
-                    Text("Tap ") +
-                    Text("Safari").bold() +
-                    Text(" ⭢ ") +
-                    Text("Content Blockers").bold()
+            VStack (alignment: .leading, spacing: 15) {
+                InstructionView(
+                    imageName: "Settings",
+                    text:
+                        Text("Open ") +
+                        Text("Settings").bold() +
+                        Text(" app")
                 )
-            )
-            InstructionView(
-                imageName: "Toggle",
-                text: AnyView(
-                    Text("Enable ") +
-                    Text("Hush").bold()
+                InstructionView(
+                    imageName: "Safari",
+                    text:
+                        Text("Tap ") +
+                        Text("Safari").bold() +
+                        Text(", then ") +
+                        Text("Content Blockers").bold()
                 )
-            )
+                InstructionView(
+                    imageName: "Toggle",
+                    text:
+                        Text("Enable ") +
+                        Text("Hush").bold()
+                )
+            }
+            
+            HStack(spacing: 0) {
+                        Text("Lets go! ")
+                        Link(destination: URL(string: UIApplication.openSettingsURLString)!, label: {
+                            Text("Open Settings")
+                                .underline()
+                                .bold()
+                                .foregroundColor(.primary)
+                        })
+                        Text(".")
+            }
             #endif
         }
     }

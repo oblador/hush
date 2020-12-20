@@ -27,9 +27,9 @@ struct AllOKView: View {
         VStack (alignment: .leading, spacing: verticalSpacing) {
             
             VStack (alignment: .leading, spacing: 5) {
-                Text("All set!")
-                    .bold()
-                 Text("You may close the app and browse nag-free.")
+                Text("Hush is enabled")
+                    .font(.title)
+                 Text("You're now browsing without the nuisance.")
             }
 
             VStack (alignment: .leading, spacing: 10) {
@@ -52,14 +52,14 @@ struct AllOKView: View {
 
                 HStack (spacing: 0) {
                     Link(destination: reviewURL, label: {
-                        Text("Write a review")
+                        Text("Review on App Store")
                             .underline()
                             .bold()
                             .foregroundColor(.primary)
                     })
                     Text(" or ")
                     Link(destination: starProjectURL, label: {
-                        Text("Star on GitHub")
+                        Text("star on GitHub")
                             .underline()
                             .bold()
                             .foregroundColor(.primary)
