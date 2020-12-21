@@ -42,6 +42,7 @@ struct HushApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(appState)
+                .onAppear(perform: refreshEnabledState)
                 .onReceive(NotificationCenter.default.publisher(for: NSApplication.willBecomeActiveNotification)) { _ in
                     refreshEnabledState()
                 }
