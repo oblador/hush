@@ -1,5 +1,4 @@
 import { convert } from "./src/convert.js";
-import { flattenSelectors } from "./src/optimize.js";
 
 const LISTS = [
   "../data/vendor/fanboy-cookiemonster.txt",
@@ -24,6 +23,4 @@ const converted = LISTS
   .map(convert)
   .flat();
 
-const optimized = flattenSelectors(converted);
-
-console.log(stringify(optimized));
+console.log(stringify(converted));
