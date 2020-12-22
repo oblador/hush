@@ -54,6 +54,7 @@ struct HushApp: App {
                     idealHeight: 460,
                     maxHeight: 600
                 )
+                .background(Color.appBackgroundColor.ignoresSafeArea())
         }
         .windowStyle(HiddenTitleBarWindowStyle())
         #else
@@ -64,6 +65,7 @@ struct HushApp: App {
                 .onReceive(NotificationCenter.default.publisher(for: UIApplication.willEnterForegroundNotification)) { _ in
                     refreshEnabledState()
                 }
+                .background(Color.appBackgroundColor.ignoresSafeArea())
         }
         #endif
     }
