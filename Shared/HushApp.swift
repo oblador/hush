@@ -56,6 +56,9 @@ struct HushApp: App {
                 )
                 .background(Color.appBackgroundColor.ignoresSafeArea())
         }
+        .commands {
+            CommandGroup(replacing: CommandGroupPlacement.newItem) {} // Disable "New Window" command
+        }
         .windowStyle(HiddenTitleBarWindowStyle())
         #else
         WindowGroup {

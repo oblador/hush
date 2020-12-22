@@ -9,6 +9,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
         NSApplication.shared.windows.forEach { (window) in
             window.collectionBehavior = .fullScreenNone;
+            window.tabbingMode = .disallowed;
         }
     }
 }
