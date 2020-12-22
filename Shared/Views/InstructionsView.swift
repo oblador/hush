@@ -1,8 +1,8 @@
 import SwiftUI
 
-struct InstructionView: View {
+struct Instruction: View {
     var imageName: String
-    var text: Text
+    var label: Text
     
     var body: some View {
         HStack (alignment: .center, spacing: 10){
@@ -10,7 +10,7 @@ struct InstructionView: View {
                 .resizable()
                 .renderingMode(.template)
                 .frame(width: 34, height: 34)
-            text
+            label
         }
     }
 }
@@ -32,61 +32,61 @@ struct InstructionsView: View {
 
             #if os(macOS)
             VStack (alignment: .leading, spacing: 10) {
-                InstructionView(
+                Instruction(
                     imageName: "Safari",
-                    text:
+                    label:
                         Text("Open ") +
                         Text("Safari").bold()
                 )
-                InstructionView(
+                Instruction(
                     imageName: "Settings",
-                    text:
+                    label:
                         Text("Select ") +
                         Text("Extensions").bold() +
                         Text(" in ") +
                         Text("Settings").bold()
                 )
-                InstructionView(
+                Instruction(
                     imageName: "Checkbox",
-                    text:
+                    label:
                         Text("Enable ") +
                         Text("Hush").bold()
                 )
             }
             #else
             VStack (alignment: .leading, spacing: 15) {
-                InstructionView(
+                Instruction(
                     imageName: "Settings",
-                    text:
+                    label:
                         Text("Open ") +
                         Text("Settings").bold() +
                         Text(" app")
                 )
-                InstructionView(
+                Instruction(
                     imageName: "Safari",
-                    text:
+                    label:
                         Text("Tap ") +
                         Text("Safari").bold() +
                         Text(", then ") +
                         Text("Content Blockers").bold()
                 )
-                InstructionView(
+                Instruction(
                     imageName: "Toggle",
-                    text:
+                    label:
                         Text("Enable ") +
                         Text("Hush").bold()
                 )
             }
             
             HStack(spacing: 0) {
-                        Text("Lets go! ")
-                        Link(destination: URL(string: UIApplication.openSettingsURLString)!, label: {
-                            Text("Open Settings")
-                                .underline()
-                                .bold()
-                                .foregroundColor(.primary)
-                        })
-                        Text(".")
+                Text("Lets go! ")
+                Link(destination: URL(string: UIApplication.openSettingsURLString)!, label: {
+                    Text("Open Settings")
+                        .underline()
+                        .bold()
+                        .foregroundColor(.primary)
+                })
+                Text(".")
             }
             #endif
         }

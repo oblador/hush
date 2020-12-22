@@ -1,4 +1,3 @@
-import Foundation
 import SwiftUI
 
 class AppDelegate: NSObject, NSApplicationDelegate {

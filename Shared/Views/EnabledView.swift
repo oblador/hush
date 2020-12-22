@@ -12,7 +12,7 @@ func makeStoreURL(appID: String, action: String) -> URL {
     return URL(string: "\(scheme)//apps.apple.com/app/id\(appID)?action=\(action)")!
 }
 
-struct AllOKView: View {
+struct EnabledView: View {
     let reviewURL = makeStoreURL(appID:"1544743900", action: "write-review")
     let reportWebsiteURL = URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSeox139lwja1Yl94dIZLSg8Ga8Wt4PAWSmRwtIe7NPb7WtHMA/viewform")!
     let starProjectURL = URL(string: "https://github.com/oblador/hush")!
@@ -70,8 +70,8 @@ struct AllOKView: View {
     }
 }
 
-struct AllOKView_Previews: PreviewProvider {
+struct EnabledView_Previews: PreviewProvider {
     static var previews: some View {
-        AllOKView()
+        EnabledView()
     }
 }

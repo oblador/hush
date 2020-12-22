@@ -1,14 +1,5 @@
 import SwiftUI
 
-extension Bundle {
-    var releaseVersionNumber: String? {
-        return infoDictionary?["CFBundleShortVersionString"] as? String
-    }
-    var buildVersionNumber: String? {
-        return infoDictionary?["CFBundleVersion"] as? String
-    }
-}
-
 struct ContentView: View {
     @EnvironmentObject var appState: AppState
 
@@ -29,7 +20,7 @@ struct ContentView: View {
             VStack { () -> AnyView? in
                 switch(self.appState.contentBlockerEnabledState) {
                 case .disabled: return AnyView(InstructionsView())
-                case .enabled: return AnyView(AllOKView())
+                case .enabled: return AnyView(EnabledView())
                 case .undetermined: return nil
                 }
             }
