@@ -2,3 +2,6 @@
 
 ! Discovered on accuweather.com
 ###privacy-policy-banner
+
+! Discovered on swedbank.se
+##.cookie-consent-widget
