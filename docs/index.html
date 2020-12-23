@@ -136,6 +136,10 @@ a {
   border-radius: 40px;
   overflow: hidden;
   padding-top: 5.5rem;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
 }
 
 .iphone-notch {
@@ -232,6 +236,10 @@ a {
 
 .nag button.tertiary {
   border-color: #fff;
+}
+
+.nag input {
+  width: 8rem;
 }
 
 .nag-tracking {
