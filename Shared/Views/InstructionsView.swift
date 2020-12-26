@@ -27,6 +27,7 @@ struct InstructionsView: View {
             VStack (alignment: .leading, spacing: 10) {
                 Text("Hush is not enabled")
                     .font(.title)
+                    .accessibilityIdentifier("extension disabled")
                 Text("Follow these steps to enable:")
             }
 

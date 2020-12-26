@@ -29,6 +29,7 @@ struct EnabledView: View {
             VStack (alignment: .leading, spacing: 5) {
                 Text("Hush is enabled")
                     .font(.title)
+                    .accessibilityIdentifier("extension enabled")
                  Text("You're now browsing without the nuisance.")
             }
 

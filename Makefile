@@ -5,7 +5,14 @@ check_format:
 	deno fmt --check scripts
 
 test:
+	make test_unit
+	make test_ui
+
+test_unit:
 	deno test
+
+test_ui:
+	xcodebuild test -project Hush.xcodeproj -scheme 'Hush iOS' -destination 'platform=iOS Simulator,name=iPhone 8'
 
 fetch_external:
 	deno run --allow-write=./data --allow-net scripts/fetch-external.js
