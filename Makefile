@@ -1,6 +1,12 @@
 format:
 	deno fmt scripts
 
+check_format:
+	deno fmt --check scripts
+
+test:
+	deno test
+
 fetch_external:
 	deno run --allow-write=./data --allow-net scripts/fetch-external.js
 
