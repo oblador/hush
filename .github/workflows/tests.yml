@@ -15,7 +15,19 @@ jobs:
         with:
           deno-version: v1.x
       - run: |
-          make test
+          make test_unit
+
+  ui:
+    name: UI tests
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: denolib/setup-deno@v2
+        with:
+          deno-version: v1.x
+      - run: |
+          make test_ui
 
   format:
     name: Check formatting
