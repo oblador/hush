@@ -5,3 +5,6 @@
 
 ! Discovered on swedbank.se
 ##.cookie-consent-widget
+
+! Discovered on formidable.com
+##[class^="gdpr-notice"]
