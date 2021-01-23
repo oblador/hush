@@ -32,6 +32,6 @@
 		<string>$(PRODUCT_MODULE_NAME).ContentBlockerRequestHandler</string>
 	</dict>
 	<key>NSHumanReadableDescription</key>
-	<string>Get rid of annoying cookie notices and tracking consent notices while keeping your privacy.</string>
+	<string>Block annoying cookie and tracking consent notices while keeping your privacy.</string>
 </dict>
 </plist>
