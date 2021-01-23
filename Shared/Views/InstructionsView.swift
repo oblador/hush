@@ -80,7 +80,7 @@ struct InstructionsView: View {
             }
             
             HStack(spacing: 0) {
-                Text("Lets go! ")
+                Text("Let's go! ")
                 Link(destination: URL(string: UIApplication.openSettingsURLString)!, label: {
                     Text("Open Settings")
                         .underline()
