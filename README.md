@@ -9,6 +9,10 @@
   <br>
 </div>
 
+>I’ve been running it for days and it’s the sort of thing you don’t notice at all until you disable it and all of a sudden you’re back to approving cookie access every single goddamn time […] I’d recommend Hush to anyone who uses Safari
+
+– John Gruber, [Daring Fireball](https://daringfireball.net/linked/2021/01/23/hush) 23 January 2021
+
 Hush is private, free and fast – [read more on the website](https://oblador.github.io/hush/).
 
 ## Download
