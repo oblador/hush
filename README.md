@@ -9,7 +9,7 @@
   <br>
 </div>
 
->I’ve been running it for days and it’s the sort of thing you don’t notice at all until you disable it and all of a sudden you’re back to approving cookie access every single goddamn time […] I’d recommend Hush to anyone who uses Safari
+>I’d recommend Hush to anyone who uses Safari
 
 – John Gruber, [Daring Fireball](https://daringfireball.net/linked/2021/01/23/hush) 23 January 2021
 
@@ -56,15 +56,6 @@ Hush is written in Apple's latest programming paradigm Swift UI and has native s
 ### Tiny
 The app download clocks in at less than half a megabyte.
 
-## Building from source
-
-To build the app in Xcode, you need to have [deno](https://deno.land) installed first:
-
-```sh
-brew install deno
-xcode-select --install
-```
-
 ## FAQ
 
 #### Does Hush accept or deny permission to site cookies?
@@ -82,6 +73,37 @@ On some sites it's not possible to block/hide cookie notices or tracking consent
 #### Why does website X break with Hush enabled?
 
 First ensure that it's actually Hush breaking it by disabling it in settings and reloading the page. If it works after this, please report it by opening an issue.
+
+## Building from source
+
+To build the app in Xcode, you need to have [deno](https://deno.land) installed first:
+
+```sh
+brew install deno
+xcode-select --install
+```
+
+## Contributing
+
+### Tests
+
+Run blocklist unit tests with:
+```bash
+make test_unit
+```
+
+Run UI tests with:
+
+```bash
+make test_ui
+```
+
+### Blocklist
+
+Compile blocklist only with (part of Xcode build):
+```bash
+make blocklist
+```
 
 ## License
 
