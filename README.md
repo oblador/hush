@@ -66,6 +66,10 @@ Neither! Hush will block specific scripts and elements on the website, but can't
 
 Absolutely, being compliant and respecting your choices is up to the website owners. It's possible to block all cookies, but that also breaks a lot of websites. I personally use incognito mode so I don't have to trust website owners' good intents and implementations, but that means they constantly "forget" my cookie choices. Ergo Hush.
 
+#### Does it block ads?
+
+Hush doesn't block ads on purpose. Nobody wants to read nor display cookie notices. But ads – however annoying – might be crucial for makers and businesses on the internet and I don't want to steal their lunch.
+
 #### Why does website X display nags with Hush enabled?
 
 On some sites it's not possible to block/hide cookie notices or tracking consent screens without also breaking the site. Other sites have obfuscations in place to prevent blocking. Regardless, you may open an issue on GitHub or [fill in a form](https://docs.google.com/forms/d/e/1FAIpQLSeox139lwja1Yl94dIZLSg8Ga8Wt4PAWSmRwtIe7NPb7WtHMA/viewform) to report it.
