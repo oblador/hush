@@ -1,4 +1,4 @@
-import punycode from "../vendor/punycode.js";
+import punycode from "https://deno.land/x/punycode/punycode.js";
 import { hasUnsupportedSelectors } from "./validation.js";
 
 const COMMENT_PREFIX = "!";
