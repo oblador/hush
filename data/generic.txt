@@ -8,3 +8,6 @@
 
 ! Discovered on formidable.com
 ##[class^="gdpr-notice"]
+
+! Discovered on get-switch.app
+##.cookie-card
