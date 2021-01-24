@@ -45,7 +45,7 @@ struct InstructionsView: View {
                         Text("Select ") +
                         Text("Extensions").bold() +
                         Text(" in ") +
-                        Text("Settings").bold()
+                        Text("Preferences").bold()
                 )
                 Instruction(
                     imageName: "Checkbox",
