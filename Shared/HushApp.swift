@@ -63,13 +63,15 @@ struct HushApp: App {
         .windowStyle(HiddenTitleBarWindowStyle())
         #else
         WindowGroup {
-            ContentView()
-                .environmentObject(appState)
-                .onAppear(perform: refreshEnabledState)
-                .onReceive(NotificationCenter.default.publisher(for: UIApplication.willEnterForegroundNotification)) { _ in
-                    refreshEnabledState()
-                }
-                .background(Color.appBackgroundColor.ignoresSafeArea())
+            ZStack {
+                Color.appBackgroundColor.ignoresSafeArea()
+                ContentView()
+                    .environmentObject(appState)
+                    .onAppear(perform: refreshEnabledState)
+                    .onReceive(NotificationCenter.default.publisher(for: UIApplication.willEnterForegroundNotification)) { _ in
+                        refreshEnabledState()
+                    }
+            }
         }
         #endif
     }
