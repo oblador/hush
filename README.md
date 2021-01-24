@@ -21,7 +21,7 @@ Hush is private, free and fast – [read more on the website](https://oblador.gi
 
 [![](https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg)](https://apps.apple.com/app/id1544743900)
 
-Requires iOS 10.14 or later.
+Requires iOS 14 or later.
 
 ### macOS
 
