@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D1559D325C02D51004B2C0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1559D225C02D51004B2C0C /* AppDelegate.m */; };
+		3D1559D825C02D52004B2C0C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D1559D625C02D52004B2C0C /* MainMenu.xib */; };
+		3D1559DB25C02D52004B2C0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1559DA25C02D52004B2C0C /* main.m */; };
+		3DED38BC25C02DD0005B3006 /* ContentBlocker macOS.appex in CopyFiles */ = {isa = PBXBuildFile; fileRef = A4D9A113258A0340009D7004 /* ContentBlocker macOS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3DED38C325C02DF4005B3006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D9A0EE258A02B4009D7004 /* Assets.xcassets */; };
+		3DED38D025C02F3F005B3006 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9A11A258A0340009D7004 /* ContentBlockerRequestHandler.swift */; };
 		A43F418525975CFD0043E80E /* HushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F418425975CFD0043E80E /* HushUITests.swift */; };
 		A4D9A0FF258A02B4009D7004 /* HushApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9A0EC258A02B2009D7004 /* HushApp.swift */; };
 		A4D9A100258A02B4009D7004 /* HushApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9A0EC258A02B2009D7004 /* HushApp.swift */; };
@@ -32,6 +38,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3DED38D725C031B2005B3006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4D9A0E7258A02B2009D7004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4D9A112258A0340009D7004;
+			remoteInfo = "ContentBlocker macOS";
+		};
 		A43F418725975CFD0043E80E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A4D9A0E7258A02B2009D7004 /* Project object */;
@@ -56,6 +69,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		3DED38BB25C02DBF005B3006 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3DED38BC25C02DD0005B3006 /* ContentBlocker macOS.appex in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4D9A124258A0340009D7004 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,6 +104,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3D1559CF25C02D51004B2C0C /* Hush Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hush Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1559D125C02D51004B2C0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D1559D225C02D51004B2C0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D1559D725C02D52004B2C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3D1559D925C02D52004B2C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D1559DA25C02D52004B2C0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D1559DC25C02D52004B2C0C /* Hush_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hush_Mac.entitlements; sourceTree = "<group>"; };
 		A43F418225975CFD0043E80E /* HushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43F418425975CFD0043E80E /* HushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HushUITests.swift; sourceTree = "<group>"; };
 		A43F418625975CFD0043E80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,6 +138,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3D1559CC25C02D51004B2C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A43F417F25975CFD0043E80E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -147,6 +184,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D1559D025C02D51004B2C0C /* Hush Mac */ = {
+			isa = PBXGroup;
+			children = (
+				3D1559D125C02D51004B2C0C /* AppDelegate.h */,
+				3D1559D225C02D51004B2C0C /* AppDelegate.m */,
+				3D1559D625C02D52004B2C0C /* MainMenu.xib */,
+				3D1559D925C02D52004B2C0C /* Info.plist */,
+				3D1559DA25C02D52004B2C0C /* main.m */,
+				3D1559DC25C02D52004B2C0C /* Hush_Mac.entitlements */,
+			);
+			path = "Hush Mac";
+			sourceTree = "<group>";
+		};
 		A43F418325975CFD0043E80E /* HushUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +213,7 @@
 				A4D9A0F5258A02B4009D7004 /* iOS */,
 				A4D9A0FC258A02B4009D7004 /* macOS */,
 				A43F418325975CFD0043E80E /* HushUITests */,
+				3D1559D025C02D51004B2C0C /* Hush Mac */,
 				A4D9A114258A0340009D7004 /* Frameworks */,
 				A4D9A0F4258A02B4009D7004 /* Products */,
 			);
@@ -189,6 +240,7 @@
 				A4D9A113258A0340009D7004 /* ContentBlocker macOS.appex */,
 				A4D9A12C258A0376009D7004 /* ContentBlocker iOS.appex */,
 				A43F418225975CFD0043E80E /* HushUITests.xctest */,
+				3D1559CF25C02D51004B2C0C /* Hush Mac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,6 +320,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3D1559CE25C02D51004B2C0C /* Hush Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D1559DF25C02D52004B2C0C /* Build configuration list for PBXNativeTarget "Hush Mac" */;
+			buildPhases = (
+				3D1559CB25C02D51004B2C0C /* Sources */,
+				3D1559CC25C02D51004B2C0C /* Frameworks */,
+				3D1559CD25C02D51004B2C0C /* Resources */,
+				3DED38BB25C02DBF005B3006 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DED38D825C031B2005B3006 /* PBXTargetDependency */,
+			);
+			name = "Hush Mac";
+			productName = "Hush Mac";
+			productReference = 3D1559CF25C02D51004B2C0C /* Hush Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
 		A43F418125975CFD0043E80E /* HushUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A43F418925975CFD0043E80E /* Build configuration list for PBXNativeTarget "HushUITests" */;
@@ -369,6 +440,9 @@
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					3D1559CE25C02D51004B2C0C = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					A43F418125975CFD0043E80E = {
 						CreatedOnToolsVersion = 12.3;
 						TestTargetID = A4D9A0F2258A02B4009D7004;
@@ -405,11 +479,21 @@
 				A4D9A0FA258A02B4009D7004 /* Hush macOS */,
 				A4D9A112258A0340009D7004 /* ContentBlocker macOS */,
 				A43F418125975CFD0043E80E /* HushUITests */,
+				3D1559CE25C02D51004B2C0C /* Hush Mac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3D1559CD25C02D51004B2C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1559D825C02D52004B2C0C /* MainMenu.xib in Resources */,
+				3DED38C325C02DF4005B3006 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A43F418025975CFD0043E80E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -492,6 +576,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3D1559CB25C02D51004B2C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DED38D025C02F3F005B3006 /* ContentBlockerRequestHandler.swift in Sources */,
+				3D1559DB25C02D52004B2C0C /* main.m in Sources */,
+				3D1559D325C02D51004B2C0C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A43F417E25975CFD0043E80E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -546,6 +640,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3DED38D825C031B2005B3006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4D9A112258A0340009D7004 /* ContentBlocker macOS */;
+			targetProxy = 3DED38D725C031B2005B3006 /* PBXContainerItemProxy */;
+		};
 		A43F418825975CFD0043E80E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A4D9A0F2258A02B4009D7004 /* Hush iOS */;
@@ -563,7 +662,64 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		3D1559D625C02D52004B2C0C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D1559D725C02D52004B2C0C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		3D1559DD25C02D52004B2C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hush Mac/Hush_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H28Z7NT4JR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Hush Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = se.oblador.Hush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3D1559DE25C02D52004B2C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hush Mac/Hush_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H28Z7NT4JR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Hush Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = se.oblador.Hush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		A43F418A25975CFD0043E80E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -836,7 +992,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = se.oblador.Hush.ContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -860,7 +1016,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = se.oblador.Hush.ContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -917,6 +1073,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3D1559DF25C02D52004B2C0C /* Build configuration list for PBXNativeTarget "Hush Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1559DD25C02D52004B2C0C /* Debug */,
+				3D1559DE25C02D52004B2C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A43F418925975CFD0043E80E /* Build configuration list for PBXNativeTarget "HushUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
