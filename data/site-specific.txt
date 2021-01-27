@@ -5,6 +5,7 @@ nytimes.com##.gdpr
 cnbc.com###cnbcgdpr
 paypal.com###gdprCookieBanner
 fedex.com##.fxg-cookie-consent
+bloomberg.com##div[id*="sp_message_container_"]
 
 ! ----- Hidden newsletter signup selectors -----
 
