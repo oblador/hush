@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A43F418525975CFD0043E80E /* HushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F418425975CFD0043E80E /* HushUITests.swift */; };
+		A4432E9F25C6D77E00BE0059 /* BlockListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2DAF7258D074500A7DAA5 /* BlockListManager.swift */; };
 		A4D9A0FF258A02B4009D7004 /* HushApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9A0EC258A02B2009D7004 /* HushApp.swift */; };
 		A4D9A100258A02B4009D7004 /* HushApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9A0EC258A02B2009D7004 /* HushApp.swift */; };
 		A4D9A103258A02B4009D7004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D9A0EE258A02B4009D7004 /* Assets.xcassets */; };
@@ -28,7 +29,14 @@
 		A4E2FFC3258A30B700F0E52A /* EnabledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E2FFC2258A30B700F0E52A /* EnabledView.swift */; };
 		A4E2FFC4258A30B700F0E52A /* EnabledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E2FFC2258A30B700F0E52A /* EnabledView.swift */; };
 		A4E2FFCB258A339700F0E52A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E2FFC9258A339700F0E52A /* AppDelegate.swift */; };
+		A4E52C8125C7019500DD1255 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E52C8025C7019500DD1255 /* UserDefaults.swift */; };
+		A4E52C8225C7019500DD1255 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E52C8025C7019500DD1255 /* UserDefaults.swift */; };
+		A4E52CA925C713F000DD1255 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E52CA825C713EF00DD1255 /* Config.swift */; };
+		A4E52CAA25C713F000DD1255 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E52CA825C713EF00DD1255 /* Config.swift */; };
+		A4E52CAB25C713F000DD1255 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E52CA825C713EF00DD1255 /* Config.swift */; };
+		A4E52CAC25C713F000DD1255 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E52CA825C713EF00DD1255 /* Config.swift */; };
 		A4F2DABB258CF46D00A7DAA5 /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9A158258A06F4009D7004 /* InstructionsView.swift */; };
+		A4F2DAF8258D074500A7DAA5 /* BlockListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2DAF7258D074500A7DAA5 /* BlockListManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +92,7 @@
 		A43F418225975CFD0043E80E /* HushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43F418425975CFD0043E80E /* HushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HushUITests.swift; sourceTree = "<group>"; };
 		A43F418625975CFD0043E80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4432EA525C6D90A00BE0059 /* BackgroundTasks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BackgroundTasks.framework; path = System/Library/Frameworks/BackgroundTasks.framework; sourceTree = SDKROOT; };
 		A4D9A0EC258A02B2009D7004 /* HushApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HushApp.swift; sourceTree = "<group>"; };
 		A4D9A0EE258A02B4009D7004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4D9A0F3258A02B4009D7004 /* Hush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hush.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +114,11 @@
 		A4E2004E258A5C9500F0E52A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		A4E2FFC2258A30B700F0E52A /* EnabledView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnabledView.swift; sourceTree = "<group>"; };
 		A4E2FFC9258A339700F0E52A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4E52C8025C7019500DD1255 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		A4E52C8825C7095C00DD1255 /* iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOS.entitlements; sourceTree = "<group>"; };
+		A4E52C8925C7099300DD1255 /* ContentBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ContentBlocker.entitlements; sourceTree = "<group>"; };
+		A4E52CA825C713EF00DD1255 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		A4F2DAF7258D074500A7DAA5 /* BlockListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockListManager.swift; sourceTree = "<group>"; wrapsLines = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,9 +187,11 @@
 			children = (
 				A4D9A0EC258A02B2009D7004 /* HushApp.swift */,
 				A4D9A11A258A0340009D7004 /* ContentBlockerRequestHandler.swift */,
+				A4E52CA825C713EF00DD1255 /* Config.swift */,
 				A4D9A153258A06F4009D7004 /* Extensions */,
 				A4D9A155258A06F4009D7004 /* Models */,
 				A4D9A157258A06F4009D7004 /* Views */,
+				A4F2DAF6258D072E00A7DAA5 /* Services */,
 				A4D9A0EE258A02B4009D7004 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -199,6 +215,7 @@
 				A4E2004E258A5C9500F0E52A /* Launch Screen.storyboard */,
 				A4D9A12D258A0376009D7004 /* ContentBlocker */,
 				A4D9A0F6258A02B4009D7004 /* Info.plist */,
+				A4E52C8825C7095C00DD1255 /* iOS.entitlements */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -217,6 +234,7 @@
 		A4D9A114258A0340009D7004 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A4432EA525C6D90A00BE0059 /* BackgroundTasks.framework */,
 				A4D9A115258A0340009D7004 /* Cocoa.framework */,
 			);
 			name = Frameworks;
@@ -234,6 +252,7 @@
 		A4D9A12D258A0376009D7004 /* ContentBlocker */ = {
 			isa = PBXGroup;
 			children = (
+				A4E52C8925C7099300DD1255 /* ContentBlocker.entitlements */,
 				A4D9A132258A0376009D7004 /* Info.plist */,
 			);
 			path = ContentBlocker;
@@ -243,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				A4D9A154258A06F4009D7004 /* Colors.swift */,
+				A4E52C8025C7019500DD1255 /* UserDefaults.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -263,6 +283,14 @@
 				A4E2FFC2258A30B700F0E52A /* EnabledView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A4F2DAF6258D072E00A7DAA5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A4F2DAF7258D074500A7DAA5 /* BlockListManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,7 +395,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					A43F418125975CFD0043E80E = {
 						CreatedOnToolsVersion = 12.3;
@@ -505,9 +533,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4E2FFC3258A30B700F0E52A /* EnabledView.swift in Sources */,
+				A4F2DAF8258D074500A7DAA5 /* BlockListManager.swift in Sources */,
 				A4D9A15D258A06F4009D7004 /* AppState.swift in Sources */,
+				A4E52CA925C713F000DD1255 /* Config.swift in Sources */,
 				A4D9A15F258A06F4009D7004 /* InstructionsView.swift in Sources */,
 				A4D9A163258A06F4009D7004 /* ContentView.swift in Sources */,
+				A4E52C8125C7019500DD1255 /* UserDefaults.swift in Sources */,
 				A4D9A0FF258A02B4009D7004 /* HushApp.swift in Sources */,
 				A4D9A15B258A06F4009D7004 /* Colors.swift in Sources */,
 			);
@@ -520,8 +551,11 @@
 				A4F2DABB258CF46D00A7DAA5 /* InstructionsView.swift in Sources */,
 				A4E2FFC4258A30B700F0E52A /* EnabledView.swift in Sources */,
 				A4D9A15E258A06F4009D7004 /* AppState.swift in Sources */,
+				A4432E9F25C6D77E00BE0059 /* BlockListManager.swift in Sources */,
 				A4D9A164258A06F4009D7004 /* ContentView.swift in Sources */,
+				A4E52C8225C7019500DD1255 /* UserDefaults.swift in Sources */,
 				A4E2FFCB258A339700F0E52A /* AppDelegate.swift in Sources */,
+				A4E52CAB25C713F000DD1255 /* Config.swift in Sources */,
 				A4D9A100258A02B4009D7004 /* HushApp.swift in Sources */,
 				A4D9A15C258A06F4009D7004 /* Colors.swift in Sources */,
 			);
@@ -532,6 +566,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4D9A11B258A0340009D7004 /* ContentBlockerRequestHandler.swift in Sources */,
+				A4E52CAC25C713F000DD1255 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +575,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4E2FFBD258A2EB700F0E52A /* ContentBlockerRequestHandler.swift in Sources */,
+				A4E52CAA25C713F000DD1255 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,6 +760,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iOS/iOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = H28Z7NT4JR;
@@ -748,6 +785,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iOS/iOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = H28Z7NT4JR;
@@ -872,6 +910,7 @@
 		A4D9A137258A0376009D7004 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iOS/ContentBlocker/ContentBlocker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = H28Z7NT4JR;
@@ -894,6 +933,7 @@
 		A4D9A138258A0376009D7004 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iOS/ContentBlocker/ContentBlocker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = H28Z7NT4JR;
