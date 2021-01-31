@@ -1,15 +1,44 @@
 ! ----- Site specific rules -----
 
+! ----- Cookie consent scripts -----
+
+||jouw.postnl.nl/widgets/cookie-widget/bootstrap.js
+||sourcepointcmp.bloomberg.com$script
+||sourcepoint.theonion.com$script
+||contributions.guardianapis.com$script
+||datacite.org/javascripts/consent.js
+
 ! ----- Hidden cookie consent selectors -----
 nytimes.com##.gdpr
 cnbc.com###cnbcgdpr
 paypal.com###gdprCookieBanner
 fedex.com##.fxg-cookie-consent
+picnic.app##.cookies
+spotify.com###onetrust-banner-sdk
+kotaku.com,insider.com##[id^="sp_message_container_"]
+flyertalk.com###truste_box_overlay
+lg.com##.cookie-banner
+
+! Safari exclude rules are too coarse, so re-enable here
+rockpapershotgun.com###onetrust-consent-sdk
 
 ! ----- Hidden newsletter signup selectors -----
 
 sifted.eu###signUp
+breakit.se##.leadinModal
 
 ! ----- Hidden donation nag selectors -----
 
 npr.com##.donation-portal-modal
+
+! ----- Exceptions to unbreak sites -----
+
+! Safari exclude rules are unable to target iframes, so unblock all
+@@||cdn.privacy-mgmt.com^$domain=ekstrabladet.dk|giga.de|manager-magazin.de|spiegel.de|sport1.de|vtm.begmt.com|welt.de
+
+coolblue.nl#@#.cookie-notification__body
+danskebank.dk#@#.cookie-consent-banner
+@@||matomo.org
+@@||blog.mozilla.org
+@@||gdpr.internetbrands.com^$domain=flyertalk.com
+

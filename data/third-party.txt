@@ -12,3 +12,8 @@
 
 ! Discovered on skd.se
 ||fundingchoicesmessages.google.com^$third-party
+
+! Discovered on wykop.pl
+||cmp.optad360.io^$third-party
+
+||nexus.ensighten.com^$third-party
