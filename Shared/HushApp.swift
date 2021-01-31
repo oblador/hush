@@ -1,4 +1,5 @@
 import SwiftUI
+import SafariServices
 
 @main
 struct HushApp: App {
@@ -6,11 +7,12 @@ struct HushApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     #endif
 
+    let contentBlockerIdentifier = "\(Bundle.main.bundleIdentifier ?? "se.oblador.Hush").ContentBlocker"
     let appState = AppState(initialContentBlockerEnabledState: .undetermined)
-    let blockListManager = BlockListManager()
 
     init() {
-        blockListManager.reloadContentBlocker(completionHandler: { (error) in
+        SFContentBlockerManager.reloadContentBlocker(withIdentifier: contentBlockerIdentifier,
+            completionHandler: { (error) in
                 if let error = error {
                     print("Failed to reload content blocker")
                     print(error)
@@ -19,7 +21,7 @@ struct HushApp: App {
     }
 
     func refreshEnabledState() {
-        blockListManager.fetchEnabledState(completionHandler: { (state, error) in
+        SFContentBlockerManager.getStateOfContentBlocker(withIdentifier: contentBlockerIdentifier, completionHandler: { (state, error) in
             if let error = error {
                 print("Failed to get content blocker state")
                 print(error)
@@ -48,8 +50,8 @@ struct HushApp: App {
                     minWidth: 320,
                     idealWidth: 350,
                     maxWidth: 500,
-                    minHeight: 500,
-                    idealHeight: 500,
+                    minHeight: 440,
+                    idealHeight: 460,
                     maxHeight: 600
                 )
                 .background(Color.appBackgroundColor.ignoresSafeArea())

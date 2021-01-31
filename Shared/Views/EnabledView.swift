@@ -12,40 +12,7 @@ func makeStoreURL(appID: String, action: String) -> URL {
     return URL(string: "\(scheme)//apps.apple.com/app/id\(appID)?action=\(action)")!
 }
 
-func formatTimestamp(epochTimestamp: Int) -> String {
-    if(epochTimestamp == 0) {
-        return "Never"
-    }
-    let date = Date(timeIntervalSince1970: TimeInterval(epochTimestamp))
-    let formatter = DateFormatter()
-    formatter.dateStyle = .short
-    formatter.timeStyle = .short
-    formatter.doesRelativeDateFormatting = true
-    return formatter.string(from: date)
-}
-
-struct CheckboxStyle: ToggleStyle {
-    func makeBody(configuration: Self.Configuration) -> some View {
-        
-        return HStack {
-            Image(configuration.isOn ? "Checkbox On" : "Checkbox Off")
-                .frame(width: 16, height: 16)
-                .foregroundColor(configuration.isOn ? .purple : .gray)
-                .font(.system(size: 20, weight: .bold, design: .default))
-            configuration.label
-
-        }
-        .onTapGesture {
-            configuration.isOn.toggle()
-        }
-
-    }
-}
-
 struct EnabledView: View {
-    @AppStorage("backgroundRefreshEnabled") var backgroundRefreshEnabled: Bool = false
-    @AppStorage("rulesLastRefreshedAt") var rulesLastRefreshedAt: Int = 0
-
     let reviewURL = makeStoreURL(appID:"1544743900", action: "write-review")
     let reportWebsiteURL = URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSeox139lwja1Yl94dIZLSg8Ga8Wt4PAWSmRwtIe7NPb7WtHMA/viewform")!
     let starProjectURL = URL(string: "https://github.com/oblador/hush")!
@@ -66,19 +33,6 @@ struct EnabledView: View {
                  Text("You're now browsing without the nuisance.")
             }
 
-            VStack (alignment: .leading, spacing: 10) {
-                Text("Rules updated: ")
-                    .bold() +
-                    Text(formatTimestamp(epochTimestamp:  $rulesLastRefreshedAt.wrappedValue))
-                #if os(macOS)
-                Toggle("Keep rules up to date", isOn: $backgroundRefreshEnabled)
-                    .toggleStyle(CheckboxStyle())
-                #else
-                Toggle("Keep rules up to date", isOn: $backgroundRefreshEnabled)
-                .toggleStyle(SwitchToggleStyle(tint: .invertedBackgroundColor))
-                #endif
-            }
-            
             VStack (alignment: .leading, spacing: 10) {
                 Text("Problem? ")
                     .bold() +
