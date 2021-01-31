@@ -56,8 +56,9 @@ const mapResourceType = (type) => {
   switch (type) {
     case "stylesheet":
       return "style-sheet";
-    // Not perfect match, but probably good enough
     case "subdocument":
+      return "document";
+    // Not perfect match, but probably good enough
     case "xmlhttprequest":
     case "other":
       return "raw";
