@@ -33,5 +33,7 @@
 	</dict>
 	<key>NSHumanReadableDescription</key>
 	<string>Block annoying cookie and tracking consent notices while keeping your privacy.</string>
+	<key>TeamIdentifierPrefix</key>
+	<string>$(DEVELOPMENT_TEAM).</string>
 </dict>
 </plist>
