@@ -1,0 +1,19 @@
+! ----- Third party widgets -----
+
+! Discovered on cultofmac.com
+||ezodn.com/cmp/altconsent.js$third-party
+###ezmobfooter
+
+! TrustArc (trustarc.com)
+! Discovered on zoom.us & forbes.com
+||consent-pref.trustarc.com$script
+||consent.trustarc.com$script
+||trustarc.com^$script,third-party
+
+! Discovered on skd.se
+||fundingchoicesmessages.google.com^$third-party
+
+! Discovered on wykop.pl
+||cmp.optad360.io^$third-party
+
+||nexus.ensighten.com^$third-party

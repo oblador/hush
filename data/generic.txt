@@ -1,0 +1,22 @@
+! ----- Generic hide rules -----
+
+! Discovered on accuweather.com
+###privacy-policy-banner
+
+! Discovered on swedbank.se
+##.cookie-consent-widget
+
+! Discovered on formidable.com
+##[class^="gdpr-notice"]
+
+! Discovered on get-switch.app
+##.cookie-card
+
+! Discovered on feber.se
+###qc-cmp2-container
+
+! Discovered on myheritage.com
+###cookie_preferences_banner_root
+
+! Discovered on wccftech.com
+###uniccmp
