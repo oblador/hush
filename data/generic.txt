@@ -11,3 +11,12 @@
 
 ! Discovered on get-switch.app
 ##.cookie-card
+
+! Discovered on rockpapershotgun.com
+###onetrust-consent-sdk
+
+! Discovered on kotaku.com
+##[id^="sp_message_container_"]
+
+! Discovered on feber.se
+###qc-cmp2-container
