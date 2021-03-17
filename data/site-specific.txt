@@ -7,6 +7,7 @@
 ||sourcepoint.theonion.com$script
 ||contributions.guardianapis.com$script
 ||datacite.org/javascripts/consent.js
+||cmp2.macwelt.de$script
 
 ! ----- Hidden cookie consent selectors -----
 nytimes.com##.gdpr
@@ -15,7 +16,7 @@ paypal.com###gdprCookieBanner
 fedex.com##.fxg-cookie-consent
 picnic.app##.cookies
 spotify.com###onetrust-banner-sdk
-kotaku.com,insider.com##[id^="sp_message_container_"]
+kotaku.com,insider.com,mopo.de##[id^="sp_message_container_"]
 flyertalk.com###truste_box_overlay
 lg.com##.cookie-banner
 
@@ -38,7 +39,13 @@ npr.com##.donation-portal-modal
 
 coolblue.nl#@#.cookie-notification__body
 danskebank.dk#@#.cookie-consent-banner
+postoffice.co.uk#@##ensNotifyBanner
+postoffice.co.uk#@#.ensNotifyBanner
+wko.at#@##cookiehint
+automl.qeexo.com#@#.privacy-container
+sole-runner.com#@##CookiePlus
+mathem.se#@#.cookie-details
 @@||matomo.org
 @@||blog.mozilla.org
 @@||gdpr.internetbrands.com^$domain=flyertalk.com
-
+@@/cookiecontrol-$domain=videogameschronicle.com
