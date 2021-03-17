@@ -1,0 +1,8 @@
+! ----- Ignored rules -----
+! These rules will be filtered out, so see
+! this as inverted block list
+
+! Rules from fanboy that breaks valid uses
+##.elementor-popup-modal.dialog-widget
+##.uk-notify-message
+##.uk-notify-message-info

@@ -7,6 +7,8 @@ const LISTS = [
   "../data/site-specific.txt",
 ];
 
+const IGNORE_LIST = "../data/ignored.txt";
+
 const stringify = (data) =>
   Deno.env.get("MINIFY") ? JSON.stringify(data) : JSON.stringify(data, null, 2);
 
@@ -17,9 +19,15 @@ const readTextFile = (path) =>
 
 const decoder = new TextDecoder("utf-8");
 
+const IGNORED = readTextFile(resolveRelative(IGNORE_LIST)).split("\n");
+
+const stripIgnored = (string) =>
+  string.split("\n").filter((rule) => !IGNORED.includes(rule)).join("\n");
+
 const converted = LISTS
   .map(resolveRelative)
   .map(readTextFile)
+  .map(stripIgnored)
   .map(convert)
   .flat();
 

@@ -20,3 +20,6 @@
 
 ! Discovered on wccftech.com
 ###uniccmp
+
+! Discovered on snyderdiamond.com
+###consent-overlay
