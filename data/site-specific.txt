@@ -5,9 +5,13 @@
 ||jouw.postnl.nl/widgets/cookie-widget/bootstrap.js
 ||sourcepointcmp.bloomberg.com$script
 ||sourcepoint.theonion.com$script
+||d.sourcepoint.lbc.co.uk$script
 ||contributions.guardianapis.com$script
 ||datacite.org/javascripts/consent.js
 ||cmp2.macwelt.de$script
+||cmp.aftenposten.no$script
+||cmp.bt.no$script
+||manomano.fr/consent.cookiebot.com/uc.js
 
 ! ----- Hidden cookie consent selectors -----
 nytimes.com##.gdpr
@@ -19,6 +23,10 @@ spotify.com###onetrust-banner-sdk
 kotaku.com,insider.com,mopo.de##[id^="sp_message_container_"]
 flyertalk.com###truste_box_overlay
 lg.com##.cookie-banner
+mubi.com###__next > div:first-child .appear-enter-done
+nytimes.com###__next > footer + div
+johnlewis.com##[data-test="cookie-overlay"]
+aftonbladet.se##body>div>#psi
 
 ! Safari exclude rules are too coarse, so re-enable here
 rockpapershotgun.com###onetrust-consent-sdk
@@ -45,7 +53,19 @@ wko.at#@##cookiehint
 automl.qeexo.com#@#.privacy-container
 sole-runner.com#@##CookiePlus
 mathem.se#@#.cookie-details
+cercacasa.it#@#.accept-cookies
+concursolutions.com#@#.truste_overlay
+wirtschaftsagentur.at#@#.cookie-consent
+adidas.com,adidas.co.uk,adidas.tr,adidas.fi,adidas.ch,adidas.no,adidas.nl,adidas.be,adidas.it,adidas.es,adidas.fr,adidas.de,adidas.se,adidas.dk,adidas.ru#@#div[class*="cookie-consent-modal_"]
+sparda-sw.de#@#.cookie-consent
+plex.tv#@#.cookie-consent
+
 @@||matomo.org
 @@||blog.mozilla.org
+@@||united-domains.de
+@@||terminix.com
+@@||evd-dormagen.de
+@@||gmx.net
+@@||web.de
 @@||gdpr.internetbrands.com^$domain=flyertalk.com
 @@/cookiecontrol-$domain=videogameschronicle.com
