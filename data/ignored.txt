@@ -6,3 +6,4 @@
 ##.elementor-popup-modal.dialog-widget
 ##.uk-notify-message
 ##.uk-notify-message-info
+mubi.com##.appear-enter-done
