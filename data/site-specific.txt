@@ -17,6 +17,7 @@
 nytimes.com##.gdpr
 cnbc.com###cnbcgdpr
 paypal.com###gdprCookieBanner
+paypal.com###ccpaCookieBanner
 fedex.com##.fxg-cookie-consent
 picnic.app##.cookies
 spotify.com###onetrust-banner-sdk
