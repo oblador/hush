@@ -23,3 +23,6 @@
 
 ! Discovered on snyderdiamond.com
 ###consent-overlay
+
+! Discovered on my.oekb.at
+###cookie-modal-backdrop

@@ -7,3 +7,6 @@
 ##.uk-notify-message
 ##.uk-notify-message-info
 mubi.com##.appear-enter-done
+
+! Exclusion rules from fanboy that cause websites to be unresponsive
+@@||consent.cookiebot.com^$script,domain=digitaltrends.com|fidelityhouse.eu|refinery29.com|sportdiver.com|warscrap.io

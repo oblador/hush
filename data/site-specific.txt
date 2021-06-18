@@ -28,6 +28,7 @@ mubi.com###__next > div:first-child .appear-enter-done
 nytimes.com###__next > footer + div
 johnlewis.com##[data-test="cookie-overlay"]
 aftonbladet.se##body>div>#psi
+wolt.com##[class^="GdprConsentsModal"]
 
 ! Safari exclude rules are too coarse, so re-enable here
 rockpapershotgun.com###onetrust-consent-sdk
@@ -60,6 +61,7 @@ wirtschaftsagentur.at#@#.cookie-consent
 adidas.com,adidas.co.uk,adidas.tr,adidas.fi,adidas.ch,adidas.no,adidas.nl,adidas.be,adidas.it,adidas.es,adidas.fr,adidas.de,adidas.se,adidas.dk,adidas.ru#@#div[class*="cookie-consent-modal_"]
 sparda-sw.de#@#.cookie-consent
 plex.tv#@#.cookie-consent
+support.activision.com#@#.gdpr
 
 @@||matomo.org
 @@||blog.mozilla.org
@@ -68,5 +70,11 @@ plex.tv#@#.cookie-consent
 @@||evd-dormagen.de
 @@||gmx.net
 @@||web.de
+@@||wikifolio.com
+@@||technikmuseum.berlin
+@@||noyb.eu
 @@||gdpr.internetbrands.com^$domain=flyertalk.com
 @@/cookiecontrol-$domain=videogameschronicle.com
+@@||cookie-notice$domain=offthebeatenpath.com
+@@||cookie_consent$domain=deepmind.com
+@@||cookie-consent$domain=jarokelo.hu
