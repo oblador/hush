@@ -69,7 +69,11 @@ struct InstructionsView: View {
                         Text("Tap ") +
                         Text("Safari").bold() +
                         Text(", then ") +
-                        Text("Content Blockers").bold()
+                        Text(
+                            ProcessInfo().operatingSystemVersion.majorVersion >= 15
+                                ? "Extensions"
+                                : "Content Blockers"
+                        ).bold()
                 )
                 Instruction(
                     imageName: "Toggle",
