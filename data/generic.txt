@@ -26,3 +26,6 @@
 
 ! Discovered on my.oekb.at
 ###cookie-modal-backdrop
+
+! Discovered on www.skatteverket.se
+###skv-cookie-banner
