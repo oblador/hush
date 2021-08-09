@@ -62,6 +62,10 @@ adidas.com,adidas.co.uk,adidas.tr,adidas.fi,adidas.ch,adidas.no,adidas.nl,adidas
 sparda-sw.de#@#.cookie-consent
 plex.tv#@#.cookie-consent
 support.activision.com#@#.gdpr
+engelvoelkers.com#@#.cookie-consent-dialog
+kvk.nl#@##cookie-consent
+holzkern.com#@#.amgdprcookie-modal-template
+neuhauschocolates.com#@#.consent-container
 
 @@||matomo.org
 @@||blog.mozilla.org
@@ -78,3 +82,4 @@ support.activision.com#@#.gdpr
 @@||cookie-notice$domain=offthebeatenpath.com
 @@||cookie_consent$domain=deepmind.com
 @@||cookie-consent$domain=jarokelo.hu
+@@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=liebherr.com
