@@ -20,3 +20,6 @@
 
 ! Discovered on laposte.fr
 ||cdn.trustcommander.net^$third-party
+
+! Discovered on nokia.com
+||cdn.gravito.net^$script,third-party

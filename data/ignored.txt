@@ -9,4 +9,7 @@
 mubi.com##.appear-enter-done
 
 ! Exclusion rules from fanboy that cause websites to be unresponsive
-@@||consent.cookiebot.com^$script,domain=digitaltrends.com|fidelityhouse.eu|refinery29.com|sportdiver.com|warscrap.io
+@@||consent.cookiebot.com^$script,domain=digitaltrends.com|dr.dk|fidelityhouse.eu|refinery29.com|sportdiver.com|warscrap.io
+
+! Custom unsupported syntax
+podleze-piekielko.pl#$#abort-on-property-read cookieman

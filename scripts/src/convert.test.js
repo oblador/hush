@@ -75,7 +75,7 @@ Deno.test("Block filter escapes special characters", () => {
   });
 });
 
-Deno.test("Block filter allows multiple options with domain excempts", () => {
+Deno.test("Block filter allows multiple options with domain exempts", () => {
   assertEquals(
     transformLine(
       "||ws.audioscrobbler.com^$third-party,domain=~last.fm|~lastfm.de|~lastfm.ru",
@@ -129,7 +129,7 @@ Deno.test("Block filter with wildcard", () => {
   });
 });
 
-Deno.test("Block filter excempt", () => {
+Deno.test("Block filter exempt", () => {
   assertEquals(transformLine("@@||consent.truste.com^$domain=economist.com"), {
     action: {
       type: "ignore-previous-rules",
@@ -193,6 +193,24 @@ Deno.test("Block filter for negative resource types", () => {
       "url-filter": "\\/arscode\\-ninja\\-popups\\/.*",
     },
   });
+
+  assertEquals(
+    transformLine("||privacy-mgmt.com^$third-party,domain=~11freunde.de"),
+    {
+      action: {
+        type: "block",
+      },
+      trigger: {
+        "load-type": [
+          "third-party",
+        ],
+        "unless-domain": [
+          "*11freunde.de",
+        ],
+        "url-filter": "privacy\\-mgmt\\.com([?/].*)?$",
+      },
+    },
+  );
 });
 
 Deno.test("Block filter for raw resource types", () => {

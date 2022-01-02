@@ -86,15 +86,15 @@ const mapOptionsToTrigger = (options) =>
 
       switch (option) {
         case "domain": {
-          const isExcemptedDomains = isDomainExemption(value);
+          const isExemptedDomains = isDomainExemption(value);
           const domains = value
             .split(/\|/g)
             .filter(Boolean)
             .map((domain) => {
               const isExemption = isDomainExemption(domain);
               if (
-                !isExcemptedDomains && isExemption ||
-                isExcemptedDomains && !isExemption
+                !isExemptedDomains && isExemption ||
+                isExemptedDomains && !isExemption
               ) {
                 throw new Error(
                   `Domain option might not mix includes and excludes, got "${value}"`,
@@ -105,7 +105,7 @@ const mapOptionsToTrigger = (options) =>
           if (!domains.length) {
             break;
           }
-          acc[isExcemptedDomains ? "unless-domain" : "if-domain"] = domains;
+          acc[isExemptedDomains ? "unless-domain" : "if-domain"] = domains;
           break;
         }
         case "third-party": {
