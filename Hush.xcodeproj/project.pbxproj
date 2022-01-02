@@ -468,7 +468,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export PATH=\"$PATH:$HOME/.deno/bin\"\nmake xcode\n";
+			shellScript = "export PATH=\"$PATH:$HOME/.deno/bin:/opt/homebrew/bin\"\n\nmake xcode\n";
 		};
 		A4E2FFD4258A401900F0E52A /* Build block list */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -487,7 +487,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export PATH=\"$PATH:$HOME/.deno/bin\"\nmake xcode\n";
+			shellScript = "export PATH=\"$PATH:$HOME/.deno/bin:/opt/homebrew/bin\"\n\nmake xcode\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
