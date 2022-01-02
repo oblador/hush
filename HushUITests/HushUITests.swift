@@ -18,7 +18,7 @@ class HushUITests: XCTestCase {
     private func toggleContentBlockerEnabled(isOn: Bool) throws {
         settingsApp.launch()
         settingsApp.tables.cells.staticTexts["Safari"].tap()
-        settingsApp.tables.cells.staticTexts["Content Blockers"].firstMatch.tap()
+        settingsApp.tables.cells.staticTexts["Extensions"].firstMatch.tap()
         if settingsApp.switches["Hush"].value as? String != (isOn ? "1" : "0") {
             settingsApp.switches["Hush"].tap()
         }
