@@ -29,6 +29,7 @@ nytimes.com###__next > footer + div
 johnlewis.com##[data-test="cookie-overlay"]
 aftonbladet.se##body>div>#psi
 wolt.com##[class^="GdprConsentsModal"]
+theguardian.com##[id^="sp_message_container"]
 
 ! Safari exclude rules are too coarse, so re-enable here
 rockpapershotgun.com###onetrust-consent-sdk
@@ -66,6 +67,11 @@ engelvoelkers.com#@#.cookie-consent-dialog
 kvk.nl#@##cookie-consent
 holzkern.com#@#.amgdprcookie-modal-template
 neuhauschocolates.com#@#.consent-container
+smb.museum#@##cookieman-modal
+bmbf.de#@#.CookieBanner
+bmbf.de#@##CookieBanner
+t-mobile.nl#@#.cookie-content
+bmeia.gv.at#@#.cookieman-modal
 
 @@||matomo.org
 @@||blog.mozilla.org
