@@ -12,6 +12,7 @@
 ||cmp.aftenposten.no$script
 ||cmp.bt.no$script
 ||manomano.fr/consent.cookiebot.com/uc.js
+/wrapperMessagingWithoutDetection.js$domain=n-tv.de
 
 ! ----- Hidden cookie consent selectors -----
 nytimes.com##.gdpr
@@ -46,7 +47,7 @@ npr.com##.donation-portal-modal
 ! ----- Exceptions to unbreak sites -----
 
 ! Safari exclude rules are unable to target iframes, so unblock all
-@@||cdn.privacy-mgmt.com^$domain=ekstrabladet.dk|giga.de|manager-magazin.de|spiegel.de|sport1.de|vtm.begmt.com|welt.de
+@@||cdn.privacy-mgmt.com^$domain=ekstrabladet.dk|giga.de|manager-magazin.de|sport1.de|vtm.begmt.com|welt.de
 
 coolblue.nl#@#.cookie-notification__body
 danskebank.dk#@#.cookie-consent-banner
