@@ -23,3 +23,9 @@
 
 ! Discovered on nokia.com
 ||cdn.gravito.net^$script,third-party
+
+! Discovered on cbr.com
+ConsentManager$script,third-party
+
+! Discovered on spiegel.de
+||msg_without_detection$script
