@@ -6,8 +6,5 @@
 ##.uk-notify-message
 ##.uk-notify-message-info
 
-! Exclusion rules from fanboy that cause websites to be unresponsive
-@@||consent.cookiebot.com^$script,domain=asambeauty.com|bankia.es|bergbauernmilch.de|berlingske.dk|biomarkt.de|bt.dk|cajamar.es|cineplex.de|danbolig.dk|dasinvestment.com|derivate.bnpparibas.com|digimon.kochfilms.de|digitaltrends.com|dr.dk|egmont.com|ekstrabladet.dk|fidelityhouse.eu|finanzmarktwelt.de|fof.se|formule1.nl|harzwasserwerke.de|hoyavision.com|kino.dk|login.nos.pt|mein-grundeinkommen.de|nngroup.com|refinery29.com|scubadiving.com|sportdiver.com|stern.de|storyhouseegmont.dk|storyhouseegmont.no|storyhouseegmont.se|swspremberg.de|warscrap.io|werder.de|werkenbijlidl.nl|wwf.fi
-
 ! Custom unsupported syntax
 podleze-piekielko.pl#$#abort-on-property-read cookieman
