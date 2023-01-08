@@ -31,6 +31,7 @@ johnlewis.com##[data-test="cookie-overlay"]
 aftonbladet.se##body>div>#psi
 wolt.com##[class^="GdprConsentsModal"]
 theguardian.com##[id^="sp_message_container"]
+producthunt.com##[data-test="dismiss-CookiePopup"]
 
 ! Safari exclude rules are too coarse, so re-enable here
 rockpapershotgun.com###onetrust-consent-sdk
@@ -73,6 +74,8 @@ bmbf.de#@#.CookieBanner
 bmbf.de#@##CookieBanner
 t-mobile.nl#@#.cookie-content
 bmeia.gv.at#@#.cookieman-modal
+clasohlson.com#@#js-cookie-notification
+qatarairways.com#@#cookieContainer
 
 @@||matomo.org
 @@||blog.mozilla.org
