@@ -3,7 +3,6 @@
 ! this as inverted block list
 
 ! Rules from fanboy that breaks valid uses
-##.uk-notify-message
 ##.uk-notify-message-info
 
 ! Custom unsupported syntax
