@@ -29,3 +29,6 @@ ConsentManager$script,third-party
 
 ! Discovered on spiegel.de
 ||msg_without_detection$script
+
+! Google Login Widget
+###credential_picker_container
