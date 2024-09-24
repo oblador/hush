@@ -12,7 +12,7 @@ test_unit:
 	deno test
 
 test_ui:
-	xcodebuild test -project Hush.xcodeproj -scheme 'Hush iOS' -destination 'platform=iOS Simulator,name=iPhone 8'
+	xcodebuild test -project Hush.xcodeproj -scheme 'Hush iOS' -destination 'platform=iOS Simulator,name=iPhone 16'
 
 fetch_external:
 	deno run --allow-write=./data --allow-net scripts/fetch-external.js

@@ -17,10 +17,14 @@ class HushUITests: XCTestCase {
     
     private func toggleContentBlockerEnabled(isOn: Bool) throws {
         settingsApp.launch()
-        settingsApp.tables.cells.staticTexts["Safari"].tap()
-        settingsApp.tables.cells.staticTexts["Extensions"].firstMatch.tap()
-        if settingsApp.switches["Hush"].value as? String != (isOn ? "1" : "0") {
-            settingsApp.switches["Hush"].tap()
+        settingsApp.swipeUp()
+        settingsApp.staticTexts["Apps"].tap()
+        settingsApp.swipeUp()
+        settingsApp.staticTexts["Safari"].tap()
+        settingsApp.staticTexts["Extensions"].tap()
+        settingsApp.staticTexts["Hush"].tap()
+        if settingsApp.switches["Allow Extension"].value as? String != (isOn ? "1" : "0") {
+            settingsApp.switches["Allow Extension"].tap()
         }
         settingsApp.terminate()
     }

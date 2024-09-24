@@ -26,6 +26,9 @@ jobs:
       - uses: denolib/setup-deno@v2
         with:
           deno-version: v1.x
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: "16.0"
       - run: |
           make test_ui
 
