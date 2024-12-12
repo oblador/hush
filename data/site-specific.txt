@@ -12,6 +12,7 @@
 ||cmp.aftenposten.no$script
 ||cmp.bt.no$script
 ||manomano.fr/consent.cookiebot.com/uc.js
+||sourcepoint.theguardian.com/*/gdpr-tcf.*.js
 /wrapperMessagingWithoutDetection.js$domain=n-tv.de
 
 ! ----- Hidden cookie consent selectors -----
@@ -30,7 +31,6 @@ nytimes.com###__next > footer + div
 johnlewis.com##[data-test="cookie-overlay"]
 aftonbladet.se##body>div>#psi
 wolt.com##[class^="GdprConsentsModal"]
-theguardian.com##[id^="sp_message_container"]
 producthunt.com##[data-test="dismiss-CookiePopup"]
 telegraph.co.uk##div[id^="sp_message_container_"]
 
