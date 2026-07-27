@@ -33,6 +33,11 @@ aftonbladet.se##body>div>#psi
 wolt.com##[class^="GdprConsentsModal"]
 producthunt.com##[data-test="dismiss-CookiePopup"]
 telegraph.co.uk##div[id^="sp_message_container_"]
+youtube.com##ytd-consent-bump-v2-lightbox
+youtube.com##tp-yt-paper-dialog
+youtube.com###dialog[role="dialog"]
+youtube.com##.eom-v1-dialog.style-scope.ytd-consent-bump-v2-lightbox
+youtube.com##tp-yt-iron-overlay-backdrop[opened].opened
 
 ! Safari exclude rules are too coarse, so re-enable here
 rockpapershotgun.com###onetrust-consent-sdk
